@@ -1,0 +1,64 @@
+{
+    "ets": "SPP",
+    "ics": {
+        "TSPC_ALL": "FALSE",
+        "TSPC_SPP_0_1": "FALSE",
+        "TSPC_SPP_0_2": "TRUE",
+        "TSPC_SPP_1_1": "TRUE",
+        "TSPC_SPP_1_2": "TRUE",
+        "TSPC_SPP_2_1": "TRUE",
+        "TSPC_SPP_2_1A": "FALSE",
+        "TSPC_SPP_2_1B": "FALSE",
+        "TSPC_SPP_3_1": "TRUE",
+        "TSPC_SPP_3_2": "TRUE",
+        "TSPC_SPP_3_3": "TRUE",
+        "TSPC_SPP_3_4": "TRUE",
+        "TSPC_SPP_3_5": "FALSE",
+        "TSPC_SPP_3_7": "TRUE",
+        "TSPC_SPP_4_1": "TRUE",
+        "TSPC_SPP_4_2": "TRUE",
+        "TSPC_SPP_4_3": "TRUE",
+        "TSPC_SPP_4_4": "TRUE",
+        "TSPC_SPP_4_5": "TRUE",
+        "TSPC_SPP_4_6": "TRUE",
+        "TSPC_SPP_5_1": "TRUE",
+        "TSPC_SPP_5_2": "TRUE",
+        "TSPC_SPP_5_3": "TRUE",
+        "TSPC_SPP_5_4": "TRUE"
+    },
+    "ixit": {
+        "TSPX_bd_addr_iut": [
+            "OCTETSTRING",
+            "000000000000"
+        ],
+        "TSPX_class_of_device_tester": [
+            "OCTETSTRING",
+            "200408"
+        ],
+        "TSPX_delete_link_key": [
+            "BOOLEAN",
+            "FALSE"
+        ],
+        "TSPX_pin_code": [
+            "IA5STRING",
+            "0000"
+        ],
+        "TSPX_security_enabled": [
+            "BOOLEAN",
+            "TRUE"
+        ],
+        "TSPX_stop_immediately_when_fail": [
+            "BOOLEAN",
+            "TRUE"
+        ],
+        "TSPX_time_guard": [
+            "INTEGER",
+            "300000"
+        ]
+    },
+    "tc": [
+		"SPP/DEVA/APP/BV-01-C",
+		"SPP/DEVB/APP/BV-02-C",
+        "IOPT/CL/SPP-DEVA/SFC/BV-24-I"
+    ]
+}

@@ -1,0 +1,326 @@
+{
+    "ets": "HFP",
+    "ics": {
+        "TSPC_ALL": "FALSE",
+        "TSPC_HFP_0A_1": "FALSE",
+        "TSPC_HFP_0A_2": "FALSE",
+        "TSPC_HFP_0A_3": "FALSE",
+        "TSPC_HFP_0B_1": "FALSE",
+        "TSPC_HFP_0B_2": "TRUE",
+        "TSPC_HFP_0B_3": "FALSE",
+        "TSPC_HFP_0C_1": "FALSE",
+        "TSPC_HFP_0C_2": "FALSE",
+        "TSPC_HFP_0C_3": "FALSE",
+        "TSPC_HFP_0C_4": "FALSE",
+        "TSPC_HFP_0D_1": "FALSE",
+        "TSPC_HFP_0D_2": "FALSE",
+        "TSPC_HFP_0D_3": "FALSE",
+        "TSPC_HFP_0D_4": "FALSE",
+        "TSPC_HFP_0_1": "FALSE",
+        "TSPC_HFP_0_2": "FALSE",
+        "TSPC_HFP_0_3": "FALSE",
+        "TSPC_HFP_1_1": "FALSE",
+        "TSPC_HFP_1_2": "TRUE",
+        "TSPC_HFP_2_1": "FALSE",
+        "TSPC_HFP_2_10": "FALSE",
+        "TSPC_HFP_2_11": "FALSE",
+        "TSPC_HFP_2_12": "FALSE",
+        "TSPC_HFP_2_12A": "FALSE",
+        "TSPC_HFP_2_12B": "FALSE",
+        "TSPC_HFP_2_12C": "FALSE",
+        "TSPC_HFP_2_12D": "FALSE",
+        "TSPC_HFP_2_13": "FALSE",
+        "TSPC_HFP_2_14": "FALSE",
+        "TSPC_HFP_2_15": "FALSE",
+        "TSPC_HFP_2_15A": "FALSE",
+        "TSPC_HFP_2_15B": "FALSE",
+        "TSPC_HFP_2_16": "FALSE",
+        "TSPC_HFP_2_17": "FALSE",
+        "TSPC_HFP_2_18A": "FALSE",
+        "TSPC_HFP_2_18B": "FALSE",
+        "TSPC_HFP_2_18C": "FALSE",
+        "TSPC_HFP_2_19": "FALSE",
+        "TSPC_HFP_2_1A": "FALSE",
+        "TSPC_HFP_2_2": "FALSE",
+        "TSPC_HFP_2_20": "FALSE",
+        "TSPC_HFP_2_21A": "FALSE",
+        "TSPC_HFP_2_21B": "FALSE",
+        "TSPC_HFP_2_21C": "FALSE",
+        "TSPC_HFP_2_22": "FALSE",
+        "TSPC_HFP_2_23": "FALSE",
+        "TSPC_HFP_2_24": "FALSE",
+        "TSPC_HFP_2_25": "FALSE",
+        "TSPC_HFP_2_26": "FALSE",
+        "TSPC_HFP_2_27": "FALSE",
+        "TSPC_HFP_2_3": "FALSE",
+        "TSPC_HFP_2_3A": "FALSE",
+        "TSPC_HFP_2_3B": "FALSE",
+        "TSPC_HFP_2_3C": "FALSE",
+        "TSPC_HFP_2_4A": "FALSE",
+        "TSPC_HFP_2_4B": "FALSE",
+        "TSPC_HFP_2_4C": "FALSE",
+        "TSPC_HFP_2_5": "FALSE",
+        "TSPC_HFP_2_6": "FALSE",
+        "TSPC_HFP_2_7": "FALSE",
+        "TSPC_HFP_2_7A": "FALSE",
+        "TSPC_HFP_2_7B": "FALSE",
+        "TSPC_HFP_2_8": "FALSE",
+        "TSPC_HFP_2_9": "FALSE",
+        "TSPC_HFP_3_1": "TRUE",
+        "TSPC_HFP_3_10": "TRUE",
+        "TSPC_HFP_3_11": "TRUE",
+        "TSPC_HFP_3_12": "TRUE",
+        "TSPC_HFP_3_12A": "TRUE",
+        "TSPC_HFP_3_12B": "TRUE",
+        "TSPC_HFP_3_12C": "TRUE",
+        "TSPC_HFP_3_12D": "TRUE",
+        "TSPC_HFP_3_12E": "FALSE",
+        "TSPC_HFP_3_13": "TRUE",
+        "TSPC_HFP_3_14": "TRUE",
+        "TSPC_HFP_3_15": "TRUE",
+        "TSPC_HFP_3_16": "FALSE",
+        "TSPC_HFP_3_17": "TRUE",
+        "TSPC_HFP_3_18A": "TRUE",
+        "TSPC_HFP_3_18B": "FALSE",
+        "TSPC_HFP_3_18C": "TRUE",
+        "TSPC_HFP_3_18D": "TRUE",
+        "TSPC_HFP_3_18E": "TRUE",
+        "TSPC_HFP_3_18F": "FALSE",
+        "TSPC_HFP_3_19": "FALSE",
+        "TSPC_HFP_3_20": "FALSE",
+        "TSPC_HFP_3_21A": "FALSE",
+        "TSPC_HFP_3_21B": "FALSE",
+        "TSPC_HFP_3_22": "TRUE",
+        "TSPC_HFP_3_23": "FALSE",
+        "TSPC_HFP_3_24": "TRUE",
+        "TSPC_HFP_3_25": "FALSE",
+        "TSPC_HFP_3_26": "FALSE",
+        "TSPC_HFP_3_2A": "TRUE",
+        "TSPC_HFP_3_2B": "TRUE",
+        "TSPC_HFP_3_2C": "TRUE",
+        "TSPC_HFP_3_2D": "TRUE",
+        "TSPC_HFP_3_2E": "TRUE",
+        "TSPC_HFP_3_2F": "FALSE",
+        "TSPC_HFP_3_3": "TRUE",
+        "TSPC_HFP_3_3A": "FALSE",
+        "TSPC_HFP_3_3B": "TRUE",
+        "TSPC_HFP_3_3C": "TRUE",
+        "TSPC_HFP_3_4A": "TRUE",
+        "TSPC_HFP_3_4B": "TRUE",
+        "TSPC_HFP_3_4C": "FALSE",
+        "TSPC_HFP_3_5": "TRUE",
+        "TSPC_HFP_3_6": "TRUE",
+        "TSPC_HFP_3_7": "TRUE",
+        "TSPC_HFP_3_7A": "TRUE",
+        "TSPC_HFP_3_8": "TRUE",
+        "TSPC_HFP_3_9": "FALSE",
+        "TSPC_HFP_4_1": "TRUE",
+        "TSPC_HFP_4_2": "TRUE",
+        "TSPC_HFP_4_3": "TRUE",
+        "TSPC_HFP_4_4": "TRUE",
+        "TSPC_HFP_6_1": "FALSE",
+        "TSPC_HFP_6_2": "FALSE",
+        "TSPC_HFP_6_3": "FALSE",
+        "TSPC_HFP_6_4": "FALSE",
+        "TSPC_HFP_7_1": "FALSE",
+        "TSPC_HFP_7_2": "FALSE",
+        "TSPC_HFP_8_1": "FALSE",
+        "TSPC_HFP_8_10": "FALSE",
+        "TSPC_HFP_8_11": "FALSE",
+        "TSPC_HFP_8_12": "FALSE",
+        "TSPC_HFP_8_2": "FALSE",
+        "TSPC_HFP_8_3": "FALSE",
+        "TSPC_HFP_8_4": "FALSE",
+        "TSPC_HFP_8_5": "FALSE",
+        "TSPC_HFP_8_6": "FALSE",
+        "TSPC_HFP_8_7": "FALSE",
+        "TSPC_HFP_8_8": "FALSE",
+        "TSPC_HFP_8_9": "FALSE"
+    },
+    "ixit": {
+        "TSPX_AG_match_tester_BRSF_codec_negotiation_bit": [
+            "BOOLEAN",
+            "FALSE"
+        ],
+        "TSPX_Automation": [
+            "BOOLEAN",
+            "FALSE"
+        ],
+        "TSPX_HFP_HF_Indicator_Value_1": [
+            "INTEGER",
+            "1"
+        ],
+        "TSPX_HFP_Illegal_HF_Indicator_Value_1": [
+            "INTEGER",
+            "99"
+        ],
+        "TSPX_HFP_Supported_HF_Indicator_1": [
+            "INTEGER",
+            "1"
+        ],
+        "TSPX_HFP_Unsupported_HF_Indicator_1": [
+            "INTEGER",
+            "99"
+        ],
+        "TSPX_ag_class_of_device": [
+            "OCTETSTRING",
+            "400204"
+        ],
+        "TSPX_bd_addr_iut": [
+            "OCTETSTRING",
+            "000000000000"
+        ],
+        "TSPX_delete_link_key": [
+            "BOOLEAN",
+            "FALSE"
+        ],
+        "TSPX_hf_class_of_device": [
+            "OCTETSTRING",
+            "200408"
+        ],
+        "TSPX_network_supports_correct_call_and_callstatus": [
+            "BOOLEAN",
+            "TRUE"
+        ],
+        "TSPX_no_fail_verdicts": [
+            "BOOLEAN",
+            "FALSE"
+        ],
+        "TSPX_packet_type_sco": [
+            "OCTETSTRING",
+            "00A0"
+        ],
+        "TSPX_phone_number": [
+            "IA5STRING",
+            "1234567"
+        ],
+        "TSPX_phone_number_memory": [
+            "IA5STRING",
+            "1"
+        ],
+        "TSPX_phone_number_memory_invalid_index": [
+            "IA5STRING",
+            "9999"
+        ],
+        "TSPX_phone_number_type": [
+            "IA5STRING",
+            "129"
+        ],
+        "TSPX_pin_code": [
+            "IA5STRING",
+            "0000"
+        ],
+        "TSPX_scan_all_memory_dial_locations": [
+            "BOOLEAN",
+            "FALSE"
+        ],
+        "TSPX_second_phone_number": [
+            "IA5STRING",
+            "7654321"
+        ],
+        "TSPX_second_phone_number_type": [
+            "IA5STRING",
+            "129"
+        ],
+        "TSPX_secure_simple_pairing_pass_key_confirmation": [
+            "BOOLEAN",
+            "FALSE"
+        ],
+        "TSPX_security_enabled": [
+            "BOOLEAN",
+            "FALSE"
+        ],
+        "TSPX_server_channel_iut": [
+            "OCTETSTRING",
+            "00"
+        ],
+        "TSPX_server_channel_tester": [
+            "OCTETSTRING",
+            "01"
+        ],
+        "TSPX_time_guard": [
+            "INTEGER",
+            "300000"
+        ],
+        "TSPX_use_implicit_send": [
+            "BOOLEAN",
+            "TRUE"
+        ],
+        "TSPX_verbose_implicit_send": [
+            "BOOLEAN",
+            "FALSE"
+        ],
+        "TSPX_verify_CLIP_information": [
+            "BOOLEAN",
+            "TRUE"
+        ]
+    },
+    "tc": [
+        "HFP/HF/OOR/BV-02-I",
+        "HFP/HF/TRS/BV-01-C",
+        "HFP/HF/PSI/BV-01-C",
+        "HFP/HF/PSI/BV-02-C",
+        "HFP/HF/PSI/BV-03-C",
+        "HFP/HF/ACS/BV-03-I",
+        "HFP/HF/ACS/BV-07-I",
+        "HFP/HF/ACS/BV-12-I",
+        "HFP/HF/ACS/BI-13-I",
+        "HFP/HF/ACR/BV-01-I",
+        "HFP/HF/ACR/BV-02-I",
+        "HFP/HF/CLI/BV-01-I",
+        "HFP/HF/ICA/BV-01-I",
+        "HFP/HF/ICA/BV-02-I",
+        "HFP/HF/ICA/BV-04-I",
+        "HFP/HF/ICA/BV-05-I",
+        "HFP/HF/ICA/BV-06-I",
+        "HFP/HF/ICR/BV-01-I",
+        "HFP/HF/ICR/BV-02-I",
+        "HFP/HF/TCA/BV-01-I",
+        "HFP/HF/TCA/BV-02-I",
+        "HFP/HF/TCA/BV-03-I",
+        "HFP/HF/TCA/BV-04-I",
+        "HFP/HF/ATH/BV-03-I",
+        "HFP/HF/ATH/BV-04-I",
+        "HFP/HF/ATH/BV-05-I",
+        "HFP/HF/ATH/BV-06-I",
+        "HFP/HF/ATA/BV-01-I",
+        "HFP/HF/ATA/BV-02-I",
+        "HFP/HF/OCN/BV-01-I",
+        "HFP/HF/OCL/BV-01-I",
+        "HFP/HF/OCL/BV-02-I",
+        "HFP/HF/TWC/BV-01-I",
+        "HFP/HF/TWC/BV-02-I",
+        "HFP/HF/TWC/BV-03-I",
+        "HFP/HF/TWC/BV-04-I",
+        "HFP/HF/TWC/BV-06-I",
+        "HFP/HF/CIT/BV-01-I",
+        "HFP/HF/ENO/BV-01-I",
+        "HFP/HF/VRA/BV-01-I",
+        "HFP/HF/VRA/BV-02-I",
+        "HFP/HF/VRD/BV-01-I",
+        "HFP/HF/TDC/BV-01-I",
+        "HFP/HF/RSV/BV-01-I",
+        "HFP/HF/RSV/BV-02-I",
+        "HFP/HF/RSV/BV-03-I",
+        "HFP/HF/ECS/BV-03-I",
+        "HFP/HF/SLC/BV-01-C",
+        "HFP/HF/SLC/BV-02-C",
+        "HFP/HF/SLC/BV-03-C",
+        "HFP/HF/SLC/BV-04-C",
+        "HFP/HF/SLC/BV-05-I",
+        "HFP/HF/SLC/BV-06-I",
+        "HFP/HF/SLC/BV-08-I",
+        "HFP/HF/ACC/BV-01-I",
+        "HFP/HF/ACC/BV-02-I",
+        "HFP/HF/ACC/BV-03-I",
+        "HFP/HF/ACC/BV-04-I",
+        "HFP/HF/ACC/BV-05-I",
+        "HFP/HF/ACC/BV-06-I",
+        "HFP/HF/ACC/BV-07-I",
+        "HFP/HF/WBS/BV-02-I",
+        "HFP/HF/WBS/BV-03-I",
+        "HFP/HF/DIS/BV-01-I",
+        "HFP/HF/SDP/BV-01-I",
+        "IOPT/CL/HFP-HF/SFC/BV-14-I"
+    ]
+}

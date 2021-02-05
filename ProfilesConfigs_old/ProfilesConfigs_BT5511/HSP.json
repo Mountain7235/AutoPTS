@@ -1,0 +1,127 @@
+{
+    "ets": "HSP",
+    "ics": {
+        "TSPC_ALL": "FALSE",
+        "TSPC_HSP_0_1": "FALSE",
+        "TSPC_HSP_0_2": "TRUE",
+        "TSPC_HSP_1_1": "FALSE",
+        "TSPC_HSP_1_2": "TRUE",
+        "TSPC_HSP_2_1": "FALSE",
+        "TSPC_HSP_2_10": "FALSE",
+        "TSPC_HSP_2_11": "FALSE",
+        "TSPC_HSP_2_12": "FALSE",
+        "TSPC_HSP_2_13": "FALSE",
+        "TSPC_HSP_2_14": "FALSE",
+        "TSPC_HSP_2_15": "FALSE",
+        "TSPC_HSP_2_16": "FALSE",
+        "TSPC_HSP_2_2": "FALSE",
+        "TSPC_HSP_2_3": "FALSE",
+        "TSPC_HSP_2_4": "FALSE",
+        "TSPC_HSP_2_5": "FALSE",
+        "TSPC_HSP_2_6": "FALSE",
+        "TSPC_HSP_2_7": "FALSE",
+        "TSPC_HSP_2_8": "FALSE",
+        "TSPC_HSP_2_9": "FALSE",
+        "TSPC_HSP_3_1": "TRUE",
+        "TSPC_HSP_3_10": "FALSE",
+        "TSPC_HSP_3_11": "FALSE",
+        "TSPC_HSP_3_12": "FALSE",
+        "TSPC_HSP_3_13": "FALSE",
+        "TSPC_HSP_3_14": "FALSE",
+        "TSPC_HSP_3_15": "TRUE",
+        "TSPC_HSP_3_16": "FALSE",
+        "TSPC_HSP_3_2": "TRUE",
+        "TSPC_HSP_3_3": "TRUE",
+        "TSPC_HSP_3_4": "TRUE",
+        "TSPC_HSP_3_5": "TRUE",
+        "TSPC_HSP_3_6": "TRUE",
+        "TSPC_HSP_3_7": "TRUE",
+        "TSPC_HSP_3_8": "TRUE",
+        "TSPC_HSP_3_9": "FALSE",
+        "TSPC_HSP_4_1": "FALSE"
+    },
+    "ixit": {
+        "TSPX_ag_class_of_device": [
+            "OCTETSTRING",
+            "400204"
+        ],
+        "TSPX_bd_addr_iut": [
+            "OCTETSTRING",
+            "000000000000"
+        ],
+        "TSPX_delete_link_key": [
+            "BOOLEAN",
+            "FALSE"
+        ],
+        "TSPX_hs_class_of_device": [
+            "OCTETSTRING",
+            "200404"
+        ],
+        "TSPX_inband_ring_only": [
+            "BOOLEAN",
+            "FALSE"
+        ],
+        "TSPX_iut_establish_audio_before_RING": [
+            "BOOLEAN",
+            "FALSE"
+        ],
+        "TSPX_no_fail_verdicts": [
+            "BOOLEAN",
+            "FALSE"
+        ],
+        "TSPX_no_ring_or_inband_ring_tone": [
+            "BOOLEAN",
+            "FALSE"
+        ],
+        "TSPX_packet_type_sco": [
+            "OCTETSTRING",
+            "00A0"
+        ],
+        "TSPX_pin_code": [
+            "IA5STRING",
+            "0000"
+        ],
+        "TSPX_remote_audio_volume_control": [
+            "BOOLEAN",
+            "TRUE"
+        ],
+        "TSPX_secure_simple_pairing_pass_key_confirmation": [
+            "BOOLEAN",
+            "FALSE"
+        ],
+        "TSPX_security_enabled": [
+            "BOOLEAN",
+            "FALSE"
+        ],
+        "TSPX_server_channel_iut": [
+            "OCTETSTRING",
+            "00"
+        ],
+        "TSPX_server_channel_tester": [
+            "OCTETSTRING",
+            "01"
+        ],
+        "TSPX_time_guard": [
+            "INTEGER",
+            "20000000"
+        ],
+        "TSPX_use_implicit_send": [
+            "BOOLEAN",
+            "TRUE"
+        ],
+        "TSPX_verbose_implicit_send": [
+            "BOOLEAN",
+            "FALSE"
+        ]
+    },
+    "tc": [
+        "HSP/HS/IAC/BV-01-I",
+        "HSP/HS/IAC/BV-02-I",
+        "HSP/HS/OAC/BV-01-I",
+        "HSP/HS/ACR/BV-01-I",
+        "HSP/HS/ACR/BV-02-I",
+        "HSP/HS/ACT/BV-01-I",
+        "HSP/HS/ACT/BV-02-I",
+        "IOPT/CL/HSP-HS/SFC/BV-17-I"
+    ]
+}

@@ -1,0 +1,107 @@
+{
+    "ets": "GAVDP",
+    "ics": {
+        "TSPC_GAVDP_0_1": "FALSE",
+        "TSPC_GAVDP_0_2": "FALSE",
+        "TSPC_GAVDP_0_3": "TRUE",
+        "TSPC_GAVDP_1_1": "TRUE",
+        "TSPC_GAVDP_1_2": "TRUE",
+        "TSPC_GAVDP_1_3": "TRUE",
+        "TSPC_GAVDP_1_4": "FALSE",
+        "TSPC_GAVDP_2_1": "TRUE",
+        "TSPC_GAVDP_2_2": "TRUE",
+        "TSPC_GAVDP_2_3": "TRUE",
+        "TSPC_GAVDP_2_4": "TRUE",
+        "TSPC_GAVDP_2_5": "TRUE",
+        "TSPC_GAVDP_2_6": "TRUE",
+        "TSPC_GAVDP_2_7": "TRUE",
+        "TSPC_GAVDP_2_8": "TRUE",
+        "TSPC_GAVDP_3_1": "TRUE",
+        "TSPC_GAVDP_3_2": "TRUE",
+        "TSPC_GAVDP_3_3": "TRUE",
+        "TSPC_GAVDP_3_4": "TRUE",
+        "TSPC_GAVDP_3_5": "TRUE",
+        "TSPC_GAVDP_3_6": "TRUE",
+        "TSPC_GAVDP_3_7": "TRUE",
+        "TSPC_GAVDP_3_8": "TRUE",
+        "TSPC_GAVDP_ALL": "FALSE"
+    },
+    "ixit": {
+        "TSPX_SNK_class_of_device": [
+            "OCTETSTRING",
+            "04041C"
+        ],
+        "TSPX_SRC_class_of_device": [
+            "OCTETSTRING",
+            "080418"
+        ],
+        "TSPX_auth_password": [
+            "IA5STRING",
+            "0000"
+        ],
+        "TSPX_auth_user_id": [
+            "IA5STRING",
+            "PTS"
+        ],
+        "TSPX_bd_addr_iut": [
+            "OCTETSTRING",
+            "000272406FAC"
+        ],
+        "TSPX_cover_art_uuid": [
+            "OCTETSTRING",
+            "3EEE"
+        ],
+        "TSPX_delete_link_key": [
+            "BOOLEAN",
+            "FALSE"
+        ],
+        "TSPX_l2cap_psm": [
+            "OCTETSTRING",
+            "1011"
+        ],
+        "TSPX_media_directory": [
+            "IA5STRING",
+            "C:\\Program Files\\Bluetooth SIG\\Bluetooth PTS\\bin\\audio"
+        ],
+        "TSPX_no_avrcp": [
+            "BOOLEAN",
+            "TRUE"
+        ],
+        "TSPX_no_confirmations": [
+            "BOOLEAN",
+            "FALSE"
+        ],
+        "TSPX_pin_code": [
+            "IA5STRING",
+            "0000"
+        ],
+        "TSPX_rfcomm_channel": [
+            "INTEGER",
+            "8"
+        ],
+        "TSPX_security_enabled": [
+            "BOOLEAN",
+            "FALSE"
+        ],
+        "TSPX_tester_av_role": [
+            "IA5STRING",
+            ""
+        ],
+        "TSPX_time_guard": [
+            "INTEGER",
+            "300000"
+        ],
+        "TSPX_use_implicit_send": [
+            "BOOLEAN",
+            "TRUE"
+        ]
+    },
+    "tc": [
+        "GAVDP/ACP/APP/CON/BV-01-C",
+        "GAVDP/ACP/APP/TRC/BV-01-C",
+        "GAVDP/ACP/APP/TRC/BV-02-C",
+        "GAVDP/INT/APP/CON/BV-01-C",
+        "GAVDP/INT/APP/TRC/BV-01-C",
+        "GAVDP/INT/APP/TRC/BV-02-C"
+    ]
+}

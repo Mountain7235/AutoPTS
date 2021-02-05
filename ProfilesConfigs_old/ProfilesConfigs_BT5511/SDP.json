@@ -1,0 +1,226 @@
+{
+    "ets": "SDP",
+    "ics": {
+        "TSPC_ALL": "FALSE",
+        "TSPC_SDP_1B_1": "TRUE",
+        "TSPC_SDP_1B_2": "TRUE",
+        "TSPC_SDP_1_1": "TRUE",
+        "TSPC_SDP_1_2": "TRUE",
+        "TSPC_SDP_1_3": "TRUE",
+        "TSPC_SDP_2_1": "TRUE",
+        "TSPC_SDP_2_2": "TRUE",
+        "TSPC_SDP_2_3": "TRUE",
+        "TSPC_SDP_3_1": "TRUE",
+        "TSPC_SDP_4_1": "TRUE",
+        "TSPC_SDP_4_2": "TRUE",
+        "TSPC_SDP_4_3": "TRUE",
+        "TSPC_SDP_5_1": "TRUE",
+        "TSPC_SDP_6_1": "TRUE",
+        "TSPC_SDP_6_2": "TRUE",
+        "TSPC_SDP_6_3": "TRUE",
+        "TSPC_SDP_7_1": "TRUE",
+        "TSPC_SDP_8_1": "TRUE",
+        "TSPC_SDP_8_2": "TRUE",
+        "TSPC_SDP_9_1": "TRUE",
+        "TSPC_SDP_9_10": "TRUE",
+        "TSPC_SDP_9_11": "TRUE",
+        "TSPC_SDP_9_12": "TRUE",
+        "TSPC_SDP_9_13": "TRUE",
+        "TSPC_SDP_9_14": "TRUE",
+        "TSPC_SDP_9_15": "TRUE",
+        "TSPC_SDP_9_16": "TRUE",
+        "TSPC_SDP_9_17": "TRUE",
+        "TSPC_SDP_9_18": "TRUE",
+        "TSPC_SDP_9_19": "TRUE",
+        "TSPC_SDP_9_2": "TRUE",
+        "TSPC_SDP_9_3": "TRUE",
+        "TSPC_SDP_9_4": "TRUE",
+        "TSPC_SDP_9_5": "TRUE",
+        "TSPC_SDP_9_6": "TRUE",
+        "TSPC_SDP_9_7": "TRUE",
+        "TSPC_SDP_9_8": "TRUE",
+        "TSPC_SDP_9_9": "TRUE"
+    },
+    "ixit": {
+        "TSPX_bd_addr_iut": [
+            "OCTETSTRING",
+            "000272406FAC"
+        ],
+        "TSPX_class_of_device_pts": [
+            "OCTETSTRING",
+            "200404"
+        ],
+        "TSPX_class_of_device_test_pts_initiator": [
+            "BOOLEAN",
+            "TRUE"
+        ],
+        "TSPX_delete_link_key": [
+            "BOOLEAN",
+            "FALSE"
+        ],
+        "TSPX_device_search_time": [
+            "INTEGER",
+            "20"
+        ],
+        "TSPX_limited_inquiry_used": [
+            "BOOLEAN",
+            "FALSE"
+        ],
+        "TSPX_pin_code": [
+            "IA5STRING",
+            "0000"
+        ],
+        "TSPX_sdp_service_search_pattern": [
+            "IA5STRING",
+            "0100"
+        ],
+        "TSPX_sdp_service_search_pattern_additional_protocol_descriptor_list": [
+            "IA5STRING",
+            ""
+        ],
+        "TSPX_sdp_service_search_pattern_bluetooth_profile_descriptor_list": [
+            "IA5STRING",
+            ""
+        ],
+        "TSPX_sdp_service_search_pattern_browse_group_list": [
+            "IA5STRING",
+            ""
+        ],
+        "TSPX_sdp_service_search_pattern_client_exe_url": [
+            "IA5STRING",
+            ""
+        ],
+        "TSPX_sdp_service_search_pattern_documentation_url": [
+            "IA5STRING",
+            ""
+        ],
+        "TSPX_sdp_service_search_pattern_icon_url": [
+            "IA5STRING",
+            ""
+        ],
+        "TSPX_sdp_service_search_pattern_language_base_attribute_id_list": [
+            "IA5STRING",
+            ""
+        ],
+        "TSPX_sdp_service_search_pattern_no_results": [
+            "IA5STRING",
+            "EEEE"
+        ],
+        "TSPX_sdp_service_search_pattern_protocol_descriptor_list": [
+            "IA5STRING",
+            ""
+        ],
+        "TSPX_sdp_service_search_pattern_provider_name": [
+            "IA5STRING",
+            ""
+        ],
+        "TSPX_sdp_service_search_pattern_service_availability": [
+            "IA5STRING",
+            ""
+        ],
+        "TSPX_sdp_service_search_pattern_service_data_base_state": [
+            "IA5STRING",
+            "1000"
+        ],
+        "TSPX_sdp_service_search_pattern_service_description": [
+            "IA5STRING",
+            ""
+        ],
+        "TSPX_sdp_service_search_pattern_service_id": [
+            "IA5STRING",
+            ""
+        ],
+        "TSPX_sdp_service_search_pattern_service_info_time_to_live": [
+            "IA5STRING",
+            ""
+        ],
+        "TSPX_sdp_service_search_pattern_service_name": [
+            "IA5STRING",
+            ""
+        ],
+        "TSPX_sdp_service_search_pattern_service_record_state": [
+            "IA5STRING",
+            ""
+        ],
+        "TSPX_sdp_service_search_pattern_version_number_list": [
+            "IA5STRING",
+            "1000"
+        ],
+        "TSPX_sdp_unsupported_attribute_id": [
+            "OCTETSTRING",
+            "EEEE"
+        ],
+        "TSPX_secure_simple_pairing_pass_key_confirmation": [
+            "BOOLEAN",
+            "FALSE"
+        ],
+        "TSPX_security_enabled": [
+            "BOOLEAN",
+            "FALSE"
+        ],
+        "TSPX_time_guard": [
+            "INTEGER",
+            "200000"
+        ],
+        "TSPX_use_implicit_send": [
+            "BOOLEAN",
+            "TRUE"
+        ]
+    },
+    "tc": [
+        "SDP/SR/BRW/BV-01-C",
+        "SDP/SR/BRW/BV-02-C",
+        "SDP/SR/SA/BV-01-C",
+        "SDP/SR/SA/BV-03-C",
+        "SDP/SR/SA/BV-04-C",
+        "SDP/SR/SA/BV-05-C",
+        "SDP/SR/SA/BV-06-C",
+        "SDP/SR/SA/BV-07-C",
+        "SDP/SR/SA/BV-08-C",
+        "SDP/SR/SA/BV-09-C",
+        "SDP/SR/SA/BV-10-C",
+        "SDP/SR/SA/BV-11-C",
+        "SDP/SR/SA/BV-12-C",
+        "SDP/SR/SA/BV-13-C",
+        "SDP/SR/SA/BV-14-C",
+        "SDP/SR/SA/BV-15-C",
+        "SDP/SR/SA/BV-16-C",
+        "SDP/SR/SA/BV-17-C",
+        "SDP/SR/SA/BV-18-C",
+        "SDP/SR/SA/BV-19-C",
+        "SDP/SR/SA/BV-20-C",
+        "SDP/SR/SA/BV-21-C",
+        "SDP/SR/SA/BI-01-C",
+        "SDP/SR/SA/BI-02-C",
+        "SDP/SR/SA/BI-03-C",
+        "SDP/SR/SS/BV-01-C",
+        "SDP/SR/SS/BV-03-C",
+        "SDP/SR/SS/BV-04-C",
+        "SDP/SR/SS/BI-01-C",
+        "SDP/SR/SS/BI-02-C",
+        "SDP/SR/SSA/BV-01-C",
+        "SDP/SR/SSA/BV-02-C",
+        "SDP/SR/SSA/BV-03-C",
+        "SDP/SR/SSA/BV-04-C",
+        "SDP/SR/SSA/BV-06-C",
+        "SDP/SR/SSA/BV-07-C",
+        "SDP/SR/SSA/BV-08-C",
+        "SDP/SR/SSA/BV-09-C",
+        "SDP/SR/SSA/BV-10-C",
+        "SDP/SR/SSA/BV-11-C",
+        "SDP/SR/SSA/BV-12-C",
+        "SDP/SR/SSA/BV-13-C",
+        "SDP/SR/SSA/BV-14-C",
+        "SDP/SR/SSA/BV-15-C",
+        "SDP/SR/SSA/BV-16-C",
+        "SDP/SR/SSA/BV-17-C",
+        "SDP/SR/SSA/BV-18-C",
+        "SDP/SR/SSA/BV-19-C",
+        "SDP/SR/SSA/BV-20-C",
+        "SDP/SR/SSA/BV-21-C",
+        "SDP/SR/SSA/BV-22-C",
+        "SDP/SR/SSA/BV-23-C",
+        "SDP/SR/SSA/BI-01-C",
+        "SDP/SR/SSA/BI-02-C"
+    ]
+}

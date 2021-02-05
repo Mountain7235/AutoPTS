@@ -1,0 +1,189 @@
+{
+    "ets": "A2DP",
+    "ics": {
+        "TSPC_A2DP_13_1": "FALSE",
+        "TSPC_A2DP_13_2": "FALSE",
+        "TSPC_A2DP_13_3": "FALSE",
+        "TSPC_A2DP_13_4": "FALSE",
+        "TSPC_A2DP_1_1": "FALSE",
+        "TSPC_A2DP_1_2": "TRUE",
+        "TSPC_A2DP_2A_1": "FALSE",
+        "TSPC_A2DP_2A_2": "FALSE",
+        "TSPC_A2DP_2A_3": "FALSE",
+        "TSPC_A2DP_2B_1": "FALSE",
+        "TSPC_A2DP_2B_2": "FALSE",
+        "TSPC_A2DP_2_1": "FALSE",
+        "TSPC_A2DP_2_10": "FALSE",
+        "TSPC_A2DP_2_10A": "FALSE",
+        "TSPC_A2DP_2_11": "FALSE",
+        "TSPC_A2DP_2_12": "FALSE",
+        "TSPC_A2DP_2_13": "FALSE",
+        "TSPC_A2DP_2_14": "FALSE",
+        "TSPC_A2DP_2_15": "FALSE",
+        "TSPC_A2DP_2_16": "FALSE",
+        "TSPC_A2DP_2_17": "FALSE",
+        "TSPC_A2DP_2_2": "FALSE",
+        "TSPC_A2DP_2_3": "FALSE",
+        "TSPC_A2DP_2_4": "FALSE",
+        "TSPC_A2DP_2_5": "FALSE",
+        "TSPC_A2DP_2_6": "FALSE",
+        "TSPC_A2DP_2_7": "FALSE",
+        "TSPC_A2DP_2_8": "FALSE",
+        "TSPC_A2DP_2_9": "FALSE",
+        "TSPC_A2DP_3A_1": "FALSE",
+        "TSPC_A2DP_3A_10": "FALSE",
+        "TSPC_A2DP_3A_11": "FALSE",
+        "TSPC_A2DP_3A_12": "FALSE",
+        "TSPC_A2DP_3A_2": "FALSE",
+        "TSPC_A2DP_3A_3": "FALSE",
+        "TSPC_A2DP_3A_4": "FALSE",
+        "TSPC_A2DP_3A_5": "FALSE",
+        "TSPC_A2DP_3A_6": "FALSE",
+        "TSPC_A2DP_3A_7": "FALSE",
+        "TSPC_A2DP_3A_8": "FALSE",
+        "TSPC_A2DP_3A_9": "FALSE",
+        "TSPC_A2DP_3_1": "FALSE",
+        "TSPC_A2DP_3_1A": "FALSE",
+        "TSPC_A2DP_3_2": "FALSE",
+        "TSPC_A2DP_3_2A": "FALSE",
+        "TSPC_A2DP_3_2B": "FALSE",
+        "TSPC_A2DP_3_2C": "FALSE",
+        "TSPC_A2DP_3_2D": "FALSE",
+        "TSPC_A2DP_3_2E": "FALSE",
+        "TSPC_A2DP_3_2F": "FALSE",
+        "TSPC_A2DP_4_1": "TRUE",
+        "TSPC_A2DP_4_10": "TRUE",
+        "TSPC_A2DP_4_10A": "FALSE",
+        "TSPC_A2DP_4_11": "TRUE",
+        "TSPC_A2DP_4_12": "TRUE",
+        "TSPC_A2DP_4_13": "TRUE",
+        "TSPC_A2DP_4_14": "TRUE",
+        "TSPC_A2DP_4_15": "TRUE",
+        "TSPC_A2DP_4_2": "TRUE",
+        "TSPC_A2DP_4_3": "TRUE",
+        "TSPC_A2DP_4_4": "TRUE",
+        "TSPC_A2DP_4_5": "TRUE",
+        "TSPC_A2DP_4_6": "TRUE",
+        "TSPC_A2DP_4_7": "TRUE",
+        "TSPC_A2DP_4_8": "TRUE",
+        "TSPC_A2DP_4_9": "TRUE",
+        "TSPC_A2DP_5A_1": "TRUE",
+        "TSPC_A2DP_5A_10": "TRUE",
+        "TSPC_A2DP_5A_11": "TRUE",
+        "TSPC_A2DP_5A_12": "TRUE",
+        "TSPC_A2DP_5A_2": "TRUE",
+        "TSPC_A2DP_5A_3": "TRUE",
+        "TSPC_A2DP_5A_4": "TRUE",
+        "TSPC_A2DP_5A_5": "TRUE",
+        "TSPC_A2DP_5A_6": "TRUE",
+        "TSPC_A2DP_5A_7": "TRUE",
+        "TSPC_A2DP_5A_8": "TRUE",
+        "TSPC_A2DP_5A_9": "TRUE",
+        "TSPC_A2DP_5_1": "TRUE",
+        "TSPC_A2DP_5_1A": "FALSE",
+        "TSPC_A2DP_5_2": "TRUE",
+        "TSPC_A2DP_5_2A": "FALSE",
+        "TSPC_A2DP_5_2B": "FALSE",
+        "TSPC_A2DP_5_2C": "FALSE",
+        "TSPC_A2DP_7A_1": "FALSE",
+        "TSPC_A2DP_7A_2": "FALSE",
+        "TSPC_A2DP_7A_3": "TRUE",
+        "TSPC_A2DP_7B_1": "TRUE",
+        "TSPC_A2DP_7B_2": "FALSE",
+        "TSPC_A2DP_9_1": "FALSE",
+        "TSPC_A2DP_9_2": "FALSE",
+        "TSPC_A2DP_9_3": "FALSE",
+        "TSPC_A2DP_9_4": "FALSE",
+        "TSPC_ALL": "FALSE",
+        "TSPC_SDP_9_14": "TRUE",
+        "TSPC_SDP_9_2": "TRUE"
+    },
+    "ixit": {
+        "TSPX_SNK_class_of_device": [
+            "OCTETSTRING",
+            "04041C"
+        ],
+        "TSPX_SRC_class_of_device": [
+            "OCTETSTRING",
+            "080418"
+        ],
+        "TSPX_auth_password": [
+            "IA5STRING",
+            "0000"
+        ],
+        "TSPX_auth_user_id": [
+            "IA5STRING",
+            "PTS"
+        ],
+        "TSPX_bd_addr_iut": [
+            "OCTETSTRING",
+            "000272406FAC"
+        ],
+        "TSPX_cover_art_uuid": [
+            "OCTETSTRING",
+            "3EEE"
+        ],
+        "TSPX_delete_link_key": [
+            "BOOLEAN",
+            "FALSE"
+        ],
+        "TSPX_l2cap_psm": [
+            "OCTETSTRING",
+            "1011"
+        ],
+        "TSPX_media_directory": [
+            "IA5STRING",
+            "C:\\Program Files\\Bluetooth SIG\\Bluetooth PTS\\bin\\audio"
+        ],
+        "TSPX_no_confirmations": [
+            "BOOLEAN",
+            "FALSE"
+        ],
+        "TSPX_pin_code": [
+            "IA5STRING",
+            "0000"
+        ],
+        "TSPX_rfcomm_channel": [
+            "INTEGER",
+            "8"
+        ],
+        "TSPX_security_enabled": [
+            "BOOLEAN",
+            "FALSE"
+        ],
+        "TSPX_time_guard": [
+            "INTEGER",
+            "300000"
+        ],
+        "TSPX_use_implicit_send": [
+            "BOOLEAN",
+            "TRUE"
+        ]
+    },
+    "tc": [
+        "A2DP/SNK/AS/BV-01-I",
+        "A2DP/SNK/AS/BV-02-I",
+        "A2DP/SNK/CC/BV-01-I",
+        "A2DP/SNK/CC/BV-02-I",
+        "A2DP/SNK/CC/BV-03-I",
+        "A2DP/SNK/CC/BV-04-I",
+        "A2DP/SNK/CC/BV-05-I",
+        "A2DP/SNK/CC/BV-06-I",
+        "A2DP/SNK/CC/BV-07-I",
+        "A2DP/SNK/CC/BV-08-I",
+        "A2DP/SNK/REL/BV-01-I",
+        "A2DP/SNK/REL/BV-02-I",
+        "A2DP/SNK/SDP/BV-02-I",
+        "A2DP/SNK/SET/BV-01-I",
+        "A2DP/SNK/SET/BV-02-I",
+        "A2DP/SNK/SET/BV-03-I",
+        "A2DP/SNK/SET/BV-04-I",
+        "A2DP/SNK/SET/BV-05-I",
+        "A2DP/SNK/SET/BV-06-I",
+        "A2DP/SNK/SUS/BV-01-I",
+        "A2DP/SNK/SUS/BV-02-I",
+        "A2DP/SNK/SYN/BV-01-C",
+        "A2DP/SRC/SDP/BV-01-I",
+        "IOPT/CL/A2DP-SNK/SFC/BV-02-I"
+    ]
+}

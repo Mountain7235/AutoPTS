@@ -1,0 +1,117 @@
+{
+    "ets": "RFCOMM",
+    "ics": {
+        "TSPC_ALL": "FALSE",
+        "TSPC_RFCOMM_0_1": "FALSE",
+        "TSPC_RFCOMM_0_2": "TRUE",
+        "TSPC_RFCOMM_1_1": "TRUE",
+        "TSPC_RFCOMM_1_10": "TRUE",
+        "TSPC_RFCOMM_1_11": "TRUE",
+        "TSPC_RFCOMM_1_12": "TRUE",
+        "TSPC_RFCOMM_1_13": "TRUE",
+        "TSPC_RFCOMM_1_14": "TRUE",
+        "TSPC_RFCOMM_1_15": "TRUE",
+        "TSPC_RFCOMM_1_16": "TRUE",
+        "TSPC_RFCOMM_1_17": "TRUE",
+        "TSPC_RFCOMM_1_18": "TRUE",
+        "TSPC_RFCOMM_1_19": "TRUE",
+        "TSPC_RFCOMM_1_2": "TRUE",
+        "TSPC_RFCOMM_1_20": "TRUE",
+        "TSPC_RFCOMM_1_21": "TRUE",
+        "TSPC_RFCOMM_1_22": "TRUE",
+        "TSPC_RFCOMM_1_23": "FALSE",
+        "TSPC_RFCOMM_1_3": "TRUE",
+        "TSPC_RFCOMM_1_4": "TRUE",
+        "TSPC_RFCOMM_1_5": "TRUE",
+        "TSPC_RFCOMM_1_6": "TRUE",
+        "TSPC_RFCOMM_1_7": "TRUE",
+        "TSPC_RFCOMM_1_8": "TRUE",
+        "TSPC_RFCOMM_1_9": "TRUE",
+        "TSPC_SPP_2_1": "TRUE"
+    },
+    "ixit": {
+        "TSPX_RPN_parameters_iut": [
+            "OCTETSTRING",
+            "0302001113"
+        ],
+        "TSPX_T1_Acknowledgement_Timer": [
+            "INTEGER",
+            "20000"
+        ],
+        "TSPX_T1_Acknowledgement_Timer_Dlc": [
+            "INTEGER",
+            "300000"
+        ],
+        "TSPX_T2_Response_Timer": [
+            "INTEGER",
+            "20000"
+        ],
+        "TSPX_bd_addr_iut": [
+            "OCTETSTRING",
+            ""
+        ],
+        "TSPX_class_of_device_tester": [
+            "OCTETSTRING",
+            "200408"
+        ],
+        "TSPX_delete_link_key": [
+            "BOOLEAN",
+            "FALSE"
+        ],
+        "TSPX_max_frame_size_iut": [
+            "INTEGER",
+            "127"
+        ],
+        "TSPX_pin_code": [
+            "IA5STRING",
+            "1234"
+        ],
+        "TSPX_security_enabled": [
+            "BOOLEAN",
+            "TRUE"
+        ],
+        "TSPX_server_channel_iut": [
+            "OCTETSTRING",
+            "00"
+        ],
+        "TSPX_service_name_tester": [
+            "IA5STRING",
+            "COM5"
+        ],
+        "TSPX_serviceclassid_uuid16": [
+            "OCTETSTRING",
+            ""
+        ],
+        "TSPX_time_guard": [
+            "INTEGER",
+            "300000"
+        ],
+        "TSPX_use_implicit_send": [
+            "BOOLEAN",
+            "TRUE"
+        ],
+        "TSPX_verification_pattern_length": [
+            "INTEGER",
+            "4"
+        ]
+    },
+    "tc": [
+        "RFCOMM/DEVA/RFC/BV-01-C",
+        "RFCOMM/DEVA/RFC/BV-05-C",
+        "RFCOMM/DEVB/RFC/BV-02-C",
+        "RFCOMM/DEVB/RFC/BV-06-C",
+        "RFCOMM/DEVA-DEVB/RFC/BV-03-C",
+        "RFCOMM/DEVA-DEVB/RFC/BV-04-C",
+        "RFCOMM/DEVA-DEVB/RFC/BV-07-C",
+        "RFCOMM/DEVA-DEVB/RFC/BV-08-C",
+        "RFCOMM/DEVA-DEVB/RFC/BV-11-C",
+        "RFCOMM/DEVA-DEVB/RFC/BV-13-C",
+        "RFCOMM/DEVA-DEVB/RFC/BV-14-C",
+        "RFCOMM/DEVA-DEVB/RFC/BV-15-C",
+        "RFCOMM/DEVA-DEVB/RFC/BV-17-C",
+        "RFCOMM/DEVA-DEVB/RFC/BV-19-C",
+        "RFCOMM/DEVA-DEVB/RFC/BV-21-C",
+        "RFCOMM/DEVA-DEVB/RFC/BV-22-C",
+        "RFCOMM/DEVA-DEVB/RFC/BV-25-C"
+    ]
+}

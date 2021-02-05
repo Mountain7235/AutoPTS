@@ -1,0 +1,140 @@
+{
+    "ets": "SM",
+    "ics": {
+        "TSPC_ALL": "FALSE",
+        "TSPC_SM_1_1": "TRUE",
+        "TSPC_SM_1_2": "TRUE",
+        "TSPC_SM_2_1": "TRUE",
+        "TSPC_SM_2_2": "TRUE",
+        "TSPC_SM_2_3": "TRUE",
+        "TSPC_SM_2_4": "TRUE",
+        "TSPC_SM_2_5": "TRUE",
+        "TSPC_SM_3_1": "TRUE",
+        "TSPC_SM_4_1": "TRUE",
+        "TSPC_SM_4_2": "TRUE",
+        "TSPC_SM_4_3": "TRUE",
+        "TSPC_SM_5_1": "TRUE",
+        "TSPC_SM_5_2": "TRUE",
+        "TSPC_SM_5_3": "TRUE",
+        "TSPC_SM_5_4": "TRUE",
+        "TSPC_SM_5_5": "FALSE",
+        "TSPC_SM_5_6": "FALSE",
+        "TSPC_SM_6_1": "FALSE",
+        "TSPC_SM_6_2": "FALSE",
+        "TSPC_SM_7_1": "TRUE",
+        "TSPC_SM_7_2": "TRUE",
+        "TSPC_SM_7_3": "FALSE",
+        "TSPC_SM_8_1": "FALSE",
+        "TSPC_SM_8_2": "FALSE",
+        "TSPC_SM_8_3": "FALSE"
+    },
+    "ixit": {
+        "TSPX_ATTR_HANDLE": [
+            "OCTETSTRING",
+            "0001"
+        ],
+        "TSPX_ATTR_VALUE": [
+            "OCTETSTRING",
+            "0002"
+        ],
+        "TSPX_Bonding_Flags": [
+            "OCTETSTRING",
+            "00"
+        ],
+        "TSPX_Min_Encryption_Key_Length": [
+            "INTEGER",
+            "07"
+        ],
+        "TSPX_OOB_Data": [
+            "OCTETSTRING",
+            "0000000000000000FE12036E5A889F4D"
+        ],
+        "TSPX_bd_addr_iut": [
+            "OCTETSTRING",
+            "000000000000"
+        ],
+        "TSPX_iut_device_name_in_adv_packet_for_random_address": [
+            "IA5STRING",
+            ""
+        ],
+        "TSPX_new_key_failed_count": [
+            "INTEGER",
+            "0"
+        ],
+        "TSPX_tester_role_optional": [
+            "IA5STRING",
+            "L2CAP_ROLE_ACCEPTOR"
+        ],
+        "TSPX_time_guard": [
+            "INTEGER",
+            "180000"
+        ],
+        "TSPX_use_implicit_send": [
+            "BOOLEAN",
+            "TRUE"
+        ]
+    },
+    "tc": [
+        "SM/CEN/PROT/BV-01-C",
+        "SM/CEN/JW/BV-05-C",
+        "SM/CEN/JW/BI-04-C",
+        "SM/CEN/JW/BI-01-C",
+        "SM/CEN/PKE/BV-01-C",
+        "SM/CEN/PKE/BV-04-C",
+        "SM/CEN/PKE/BI-01-C",
+        "SM/CEN/PKE/BI-02-C",
+        "SM/CEN/OOB/BV-01-C",
+        "SM/CEN/OOB/BV-03-C",
+        "SM/CEN/OOB/BV-09-C",
+        "SM/CEN/OOB/BI-01-C",
+        "SM/CEN/EKS/BV-01-C",
+        "SM/CEN/EKS/BI-01-C",
+        "SM/CEN/KDU/BV-05-C",
+        "SM/CEN/KDU/BV-06-C",
+        "SM/CEN/KDU/BV-10-C",
+        "SM/CEN/KDU/BI-01-C",
+        "SM/CEN/SIP/BV-02-C",
+        "SM/CEN/SCJW/BV-01-C",
+        "SM/CEN/SCJW/BV-04-C",
+        "SM/CEN/SCJW/BI-01-C",
+        "SM/CEN/SCPK/BV-01-C",
+        "SM/CEN/SCPK/BV-04-C",
+        "SM/CEN/SCPK/BI-01-C",
+        "SM/CEN/SCPK/BI-02-C",
+        "SM/CEN/SCOB/BV-01-C",
+        "SM/CEN/SCOB/BV-04-C",
+        "SM/CEN/SCOB/BI-01-C",
+        "SM/CEN/SCOB/BI-04-C",
+        "SM/PER/PROT/BV-02-C",
+        "SM/PER/JW/BV-02-C",
+        "SM/PER/JW/BI-03-C",
+        "SM/PER/JW/BI-02-C",
+        "SM/PER/PKE/BV-02-C",
+        "SM/PER/PKE/BV-05-C",
+        "SM/PER/PKE/BI-03-C",
+        "SM/PER/OOB/BV-02-C",
+        "SM/PER/OOB/BV-04-C",
+        "SM/PER/OOB/BV-10-C",
+        "SM/PER/OOB/BI-02-C",
+        "SM/PER/EKS/BV-02-C",
+        "SM/PER/EKS/BI-02-C",
+        "SM/PER/KDU/BV-01-C",
+        "SM/PER/KDU/BV-02-C",
+        "SM/PER/KDU/BV-07-C",
+        "SM/PER/KDU/BV-08-C",
+        "SM/PER/KDU/BI-01-C",
+        "SM/PER/SIP/BV-01-C",
+        "SM/PER/SIE/BV-01-C",
+        "SM/PER/SCJW/BV-02-C",
+        "SM/PER/SCJW/BV-03-C",
+        "SM/PER/SCJW/BI-02-C",
+        "SM/PER/SCPK/BV-02-C",
+        "SM/PER/SCPK/BV-03-C",
+        "SM/PER/SCPK/BI-03-C",
+        "SM/PER/SCPK/BI-04-C",
+        "SM/PER/SCOB/BV-02-C",
+        "SM/PER/SCOB/BV-03-C",
+        "SM/PER/SCOB/BI-02-C",
+        "SM/PER/SCOB/BI-03-C"
+    ]
+}

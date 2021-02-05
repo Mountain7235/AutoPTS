@@ -1,0 +1,161 @@
+{
+    "ets": "AVCTP",
+    "ics": {
+        "TSPC_AVCTP_0_1": "FALSE",
+        "TSPC_AVCTP_0_2": "FALSE",
+        "TSPC_AVCTP_0_3": "FALSE",
+        "TSPC_AVCTP_0_4": "TRUE",
+        "TSPC_AVCTP_1_1": "TRUE",
+        "TSPC_AVCTP_1_2": "TRUE",
+        "TSPC_AVCTP_2_1": "TRUE",
+        "TSPC_AVCTP_2_10": "TRUE",
+        "TSPC_AVCTP_2_11": "TRUE",
+        "TSPC_AVCTP_2_12": "TRUE",
+        "TSPC_AVCTP_2_13": "TRUE",
+        "TSPC_AVCTP_2_14": "TRUE",
+        "TSPC_AVCTP_2_2": "TRUE",
+        "TSPC_AVCTP_2_3": "TRUE",
+        "TSPC_AVCTP_2_4": "TRUE",
+        "TSPC_AVCTP_2_5": "TRUE",
+        "TSPC_AVCTP_2_6": "TRUE",
+        "TSPC_AVCTP_2_7": "TRUE",
+        "TSPC_AVCTP_2_8": "TRUE",
+        "TSPC_AVCTP_2_9": "TRUE",
+        "TSPC_AVCTP_3_1": "TRUE",
+        "TSPC_AVCTP_3_10": "TRUE",
+        "TSPC_AVCTP_3_11": "TRUE",
+        "TSPC_AVCTP_3_12": "TRUE",
+        "TSPC_AVCTP_3_13": "TRUE",
+        "TSPC_AVCTP_3_2": "TRUE",
+        "TSPC_AVCTP_3_3": "TRUE",
+        "TSPC_AVCTP_3_4": "TRUE",
+        "TSPC_AVCTP_3_5": "TRUE",
+        "TSPC_AVCTP_3_6": "TRUE",
+        "TSPC_AVCTP_3_7": "TRUE",
+        "TSPC_AVCTP_3_8": "TRUE",
+        "TSPC_AVCTP_3_9": "TRUE",
+        "TSPC_AVCTP_ALL": "FALSE"
+    },
+    "ixit": {
+        "TSPX_auth_password": [
+            "IA5STRING",
+            "0000"
+        ],
+        "TSPX_auth_user_id": [
+            "IA5STRING",
+            "PTS"
+        ],
+        "TSPX_avctp_iut_command_data": [
+            "OCTETSTRING",
+            ""
+        ],
+        "TSPX_avctp_iut_response_data": [
+            "OCTETSTRING",
+            ""
+        ],
+        "TSPX_avctp_profile_id": [
+            "OCTETSTRING",
+            "110E"
+        ],
+        "TSPX_avctp_psm": [
+            "OCTETSTRING",
+            "0017"
+        ],
+        "TSPX_avctp_tester_command_data": [
+            "OCTETSTRING",
+            ""
+        ],
+        "TSPX_avctp_tester_response_data": [
+            "OCTETSTRING",
+            ""
+        ],
+        "TSPX_avrcp_only": [
+            "BOOLEAN",
+            "FALSE"
+        ],
+        "TSPX_avrcp_version": [
+            "IA5STRING",
+            "1.3"
+        ],
+        "TSPX_bd_addr_iut": [
+            "OCTETSTRING",
+            "000272406FAC"
+        ],
+        "TSPX_class_of_device": [
+            "OCTETSTRING",
+            "20050C"
+        ],
+        "TSPX_connect_avdtp": [
+            "BOOLEAN",
+            "TRUE"
+        ],
+        "TSPX_delete_link_key": [
+            "BOOLEAN",
+            "FALSE"
+        ],
+        "TSPX_establish_avdtp_stream": [
+            "BOOLEAN",
+            "TRUE"
+        ],
+        "TSPX_l2cap_psm": [
+            "OCTETSTRING",
+            "1011"
+        ],
+        "TSPX_media_directory": [
+            "IA5STRING",
+            "C:\\Program Files\\Bluetooth SIG\\Bluetooth PTS\\bin\\audio"
+        ],
+        "TSPX_no_confirmations": [
+            "BOOLEAN",
+            "FALSE"
+        ],
+        "TSPX_pin_code": [
+            "IA5STRING",
+            "0000"
+        ],
+        "TSPX_player_feature_bitmask": [
+            "OCTETSTRING",
+            "0000000000000007FFF00070000000000"
+        ],
+        "TSPX_rfcomm_channel": [
+            "INTEGER",
+            "8"
+        ],
+        "TSPX_security_enabled": [
+            "BOOLEAN",
+            "FALSE"
+        ],
+        "TSPX_tester_av_role": [
+            "IA5STRING",
+            ""
+        ],
+        "TSPX_time_guard": [
+            "INTEGER",
+            "300000"
+        ],
+        "TSPX_use_implicit_send": [
+            "BOOLEAN",
+            "TRUE"
+        ]
+    },
+    "tc": [
+        "AVCTP/CT/CCM/BI-01-C",
+        "AVCTP/CT/CCM/BV-01-C",
+        "AVCTP/CT/CCM/BV-02-C",
+        "AVCTP/CT/CCM/BV-03-C",
+        "AVCTP/CT/CCM/BV-04-C",
+        "AVCTP/CT/FRA/BV-01-C",
+        "AVCTP/CT/FRA/BV-04-C",
+        "AVCTP/CT/NFR/BV-01-C",
+        "AVCTP/CT/NFR/BV-04-C",
+        "AVCTP/TG/CCM/BV-01-C",
+        "AVCTP/TG/CCM/BV-02-C",
+        "AVCTP/TG/CCM/BV-03-C",
+        "AVCTP/TG/CCM/BV-04-C",
+        "AVCTP/TG/FRA/BV-02-C",
+        "AVCTP/TG/FRA/BV-03-C",
+        "AVCTP/TG/NFR/BI-01-C",
+        "AVCTP/TG/NFR/BV-02-C",
+        "AVCTP/TG/NFR/BV-03-C"
+    ]
+}

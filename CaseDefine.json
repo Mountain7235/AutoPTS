@@ -1,0 +1,57 @@
+{
+  	"A2DP": [
+        "A2DP/SNK/SET/BV-06-I"
+	],
+
+	"AVCTP": [
+		"AVCTP/TG/NFR/BV-03-C"
+	],
+
+	"AVDTP": [
+		"AVDTP/SRC/INT/TRA/BTR/BV-01-C"
+	],
+
+	"AVRCP": [
+        "AVRCP/CT/CEC/BV-01-I"
+	],
+
+	"GAP": [
+		"GAP/BROB/BCST/BV-01-C"
+	],
+
+	"SM": [
+		"SM/PER/OOB/BV-04-C"
+	],
+	
+	"GATT": [
+        "GATT/SR/GAC/BV-01-C"
+	],
+
+	"L2CAP": [
+		"L2CAP/LE/CFC/BV-11-C"
+	],
+
+	"RFCOMM": [
+		"RFCOMM/DEVB/RFC/BV-06-C"
+	],
+
+	"HFP": [
+        "HFP/HF/SDP/BV-01-I"
+	],
+
+	"HSP": [
+        "IOPT/CL/HSP-HS/SFC/BV-17-I"
+	],
+
+	"PBAP": [
+        "IOPT/CL/PBAP-PCE/SFC/BV-22-I"
+	],
+
+	"SPP": [
+		"SPP/DEVA/APP/BV-01-C",
+		"SPP/DEVB/APP/BV-02-C",
+		"SPP/DEVA-DEVB/APP/BV-03-C",
+		"SPP/DEVA-DEVB/APP/BV-06-C",
+        "IOPT/CL/PBAP-PCE/SFC/BV-22-I"
+	]
+}

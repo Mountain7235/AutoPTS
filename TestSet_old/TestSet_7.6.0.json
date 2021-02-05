@@ -1,0 +1,1500 @@
+{
+    "Comport": "COM4",
+
+    "BleOnly": "Y",
+
+    "Profile": {
+        "A2DP"	 : 0,
+        "AVCTP"	 : 0,
+        "AVDTP"	 : 0,
+        "AVRCP"	 : 0,
+        "GAP"	 : 0,
+        "GATT"	 : 1,
+        "GAVDP"	 : 0,
+        "HFP"	 : 0,
+        "HSP"	 : 0,
+        "L2CAP"	 : 0,
+        "PBAP"	 : 0,
+        "RFCOMM" : 0,
+        "SDP"	 : 0,
+        "SM"	 : 0,
+        "SPP"	 : 0
+    },
+
+    "A2DP": {
+        "TSPX_SNK_class_of_device": [
+            "OCTETSTRING",
+            "04041C"
+        ],
+        "TSPX_SRC_class_of_device": [
+            "OCTETSTRING",
+            "080418"
+        ],
+        "TSPX_auth_password": [
+            "IA5STRING",
+            "0000"
+        ],
+        "TSPX_auth_user_id": [
+            "IA5STRING",
+            "PTS"
+        ],
+        "TSPX_bd_addr_iut": [
+            "OCTETSTRING",
+            "001167939393"
+        ],
+        "TSPX_cover_art_uuid": [
+            "OCTETSTRING",
+            "3EEE"
+        ],
+        "TSPX_delete_link_key": [
+            "BOOLEAN",
+            "TRUE"
+        ],
+        "TSPX_l2cap_psm": [
+            "OCTETSTRING",
+            "1001"
+        ],
+        "TSPX_media_directory": [
+            "IA5STRING",
+            "C:\\Program Files\\Bluetooth SIG\\Bluetooth PTS\\bin\\audio"
+        ],
+        "TSPX_no_confirmations": [
+            "BOOLEAN",
+            "FALSE"
+        ],
+        "TSPX_pin_code": [
+            "IA5STRING",
+            "0000"
+        ],
+        "TSPX_rfcomm_channel": [
+            "INTEGER",
+            "8"
+        ],
+        "TSPX_security_enabled": [
+            "BOOLEAN",
+            "FALSE"
+        ],
+        "TSPX_time_guard": [
+            "INTEGER",
+            "300000"
+        ],
+        "TSPX_use_implicit_send": [
+            "BOOLEAN",
+            "TRUE"
+        ]
+    },
+
+    "AVCTP": {
+        "TSPX_auth_password": [
+            "IA5STRING",
+            "0000"
+        ],
+        "TSPX_auth_user_id": [
+            "IA5STRING",
+            "PTS"
+        ],
+        "TSPX_avctp_iut_command_data": [
+            "OCTETSTRING",
+            ""
+        ],
+        "TSPX_avctp_iut_response_data": [
+            "OCTETSTRING",
+            ""
+        ],
+        "TSPX_avctp_profile_id": [
+            "OCTETSTRING",
+            "110E"
+        ],
+        "TSPX_avctp_psm": [
+            "OCTETSTRING",
+            "0017"
+        ],
+        "TSPX_avctp_tester_command_data": [
+            "OCTETSTRING",
+            ""
+        ],
+        "TSPX_avctp_tester_response_data": [
+            "OCTETSTRING",
+            "144"
+        ],
+        "TSPX_avrcp_only": [
+            "BOOLEAN",
+            "FALSE"
+        ],
+        "TSPX_avrcp_version": [
+            "IA5STRING",
+            "1.3"
+        ],
+        "TSPX_bd_addr_iut": [
+            "OCTETSTRING",
+            "001122334455"
+        ],
+        "TSPX_class_of_device": [
+            "OCTETSTRING",
+            "20050C"
+        ],
+        "TSPX_connect_avdtp": [
+            "BOOLEAN",
+            "TRUE"
+        ],
+        "TSPX_delete_link_key": [
+            "BOOLEAN",
+            "TRUE"
+        ],
+        "TSPX_establish_avdtp_stream": [
+            "BOOLEAN",
+            "TRUE"
+        ],
+        "TSPX_l2cap_psm": [
+            "OCTETSTRING",
+            "1001"
+        ],
+        "TSPX_media_directory": [
+            "IA5STRING",
+            "C:\\Program Files\\Bluetooth SIG\\Bluetooth PTS\\bin\\audio"
+        ],
+        "TSPX_no_confirmations": [
+            "BOOLEAN",
+            "FALSE"
+        ],
+        "TSPX_pin_code": [
+            "IA5STRING",
+            "0000"
+        ],
+        "TSPX_player_feature_bitmask": [
+            "OCTETSTRING",
+            "0000000000000007FFF00070000000000"
+        ],
+        "TSPX_rfcomm_channel": [
+            "INTEGER",
+            "8"
+        ],
+        "TSPX_security_enabled": [
+            "BOOLEAN",
+            "FALSE"
+        ],
+        "TSPX_tester_av_role": [
+            "IA5STRING",
+            ""
+        ],
+        "TSPX_time_guard": [
+            "INTEGER",
+            "300000"
+        ],
+        "TSPX_use_implicit_send": [
+            "BOOLEAN",
+            "TRUE"
+        ]
+    },
+
+    "AVDTP": {
+        "TSPX_SNK_class_of_device": [
+            "OCTETSTRING",
+            "04041C"
+        ],
+        "TSPX_SRC_class_of_device": [
+            "OCTETSTRING",
+            "080418"
+        ],
+        "TSPX_auth_password": [
+            "IA5STRING",
+            "0000"
+        ],
+        "TSPX_auth_user_id": [
+            "IA5STRING",
+            "PTS"
+        ],
+        "TSPX_bd_addr_iut": [
+            "OCTETSTRING",
+            "001122334455"
+        ],
+        "TSPX_content_protection_data": [
+            "OCTETSTRING",
+            ""
+        ],
+        "TSPX_content_protection_type": [
+            "OCTETSTRING",
+            ""
+        ],
+        "TSPX_delete_link_key": [
+            "BOOLEAN",
+            "TRUE"
+        ],
+        "TSPX_l2cap_psm": [
+            "OCTETSTRING",
+            "1001"
+        ],
+        "TSPX_media_directory": [
+            "IA5STRING",
+            ""
+        ],
+        "TSPX_no_avrcp": [
+            "BOOLEAN",
+            "TRUE"
+        ],
+        "TSPX_no_confirmations": [
+            "BOOLEAN",
+            "FALSE"
+        ],
+        "TSPX_pin_code": [
+            "IA5STRING",
+            "0000"
+        ],
+        "TSPX_rfcomm_channel": [
+            "INTEGER",
+            "8"
+        ],
+        "TSPX_security_control_data": [
+            "OCTETSTRING",
+            ""
+        ],
+        "TSPX_security_enabled": [
+            "BOOLEAN",
+            "FALSE"
+        ],
+        "TSPX_time_guard": [
+            "INTEGER",
+            "300000"
+        ],
+        "TSPX_use_implicit_send": [
+            "BOOLEAN",
+            "TRUE"
+        ]
+    },
+
+    "AVRCP": {
+        "TSPX_auth_password": [
+            "IA5STRING",
+            "0000"
+        ],
+        "TSPX_auth_user_id": [
+            "IA5STRING",
+            "PTS"
+        ],
+        "TSPX_avrcp_only": [
+            "BOOLEAN",
+            "FALSE"
+        ],
+        "TSPX_avrcp_version": [
+            "IA5STRING",
+            ""
+        ],
+        "TSPX_bd_addr_iut": [
+            "OCTETSTRING",
+            "001122334455"
+        ],
+        "TSPX_class_of_device": [
+            "OCTETSTRING",
+            "20050C"
+        ],
+        "TSPX_cover_art_folder": [
+            "IA5STRING",
+            ""
+        ],
+        "TSPX_delete_link_key": [
+            "BOOLEAN",
+            "TRUE"
+        ],
+        "TSPX_establish_avdtp_stream": [
+            "BOOLEAN",
+            "TRUE"
+        ],
+        "TSPX_l2cap_psm": [
+            "OCTETSTRING",
+            "1001"
+        ],
+        "TSPX_max_avc_fragments": [
+            "INTEGER",
+            "10"
+        ],
+        "TSPX_media_directory": [
+            "IA5STRING",
+            "C:\\Program Files\\Bluetooth SIG\\Bluetooth PTS\\bin\\audio"
+        ],
+        "TSPX_no_confirmations": [
+            "BOOLEAN",
+            "FALSE"
+        ],
+        "TSPX_no_cover_art_folder": [
+            "IA5STRING",
+            ""
+        ],
+        "TSPX_pin_code": [
+            "IA5STRING",
+            "0000"
+        ],
+        "TSPX_player_feature_bitmask": [
+            "OCTETSTRING",
+            "FFFFFFFFFFFFFF7F0600000000000000"
+        ],
+        "TSPX_rfcomm_channel": [
+            "INTEGER",
+            "8"
+        ],
+        "TSPX_search_string": [
+            "IA5STRING",
+            "3"
+        ],
+        "TSPX_security_enabled": [
+            "BOOLEAN",
+            "FALSE"
+        ],
+        "TSPX_tester_av_role": [
+            "IA5STRING",
+            ""
+        ],
+        "TSPX_tester_initiates_connection": [
+            "BOOLEAN",
+            "TRUE"
+        ],
+        "TSPX_time_guard": [
+            "INTEGER",
+            "2400000"
+        ],
+        "TSPX_use_implicit_send": [
+            "BOOLEAN",
+            "TRUE"
+        ]
+    },
+
+    "GAP": {
+        "TSPX_LE_scan_interval": [
+            "OCTETSTRING",
+            "0010"
+        ],
+        "TSPX_LE_scan_window": [
+            "OCTETSTRING",
+            "0010"
+        ],
+        "TSPX_Tgap_104": [
+            "INTEGER",
+            "60000"
+        ],
+        "TSPX_URI": [
+            "OCTETSTRING",
+            "000168747470733A2F2F7777772E626C7565746F6F74682E636F6D"
+        ],
+        "TSPX_advertising_data": [
+            "OCTETSTRING",
+            "0503001801180D095054532d4741502d3036423803190000"
+        ],
+        "TSPX_bd_addr_PTS": [
+            "OCTETSTRING",
+            "001BDC08E5BD"
+        ],
+        "TSPX_bd_addr_iut": [
+            "OCTETSTRING",
+            "001167939393"
+        ],
+        "TSPX_broadcaster_class_of_device": [
+            "OCTETSTRING",
+            "100104"
+        ],
+        "TSPX_central_class_of_device": [
+            "OCTETSTRING",
+            "100104"
+        ],
+        "TSPX_con_interval_max": [
+            "OCTETSTRING",
+            "0046"
+        ],
+        "TSPX_con_interval_min": [
+            "OCTETSTRING",
+            "0032"
+        ],
+        "TSPX_con_latency": [
+            "OCTETSTRING",
+            "0001"
+        ],
+        "TSPX_conn_update_int_max": [
+            "OCTETSTRING",
+            "0046"
+        ],
+        "TSPX_conn_update_int_min": [
+            "OCTETSTRING",
+            "0032"
+        ],
+        "TSPX_conn_update_slave_latency": [
+            "OCTETSTRING",
+            "0001"
+        ],
+        "TSPX_conn_update_supervision_timeout": [
+            "OCTETSTRING",
+            "01F4"
+        ],
+        "TSPX_database_file": [
+            "IA5STRING",
+            "Database-GAP.sig"
+        ],
+        "TSPX_delete_link_key": [
+            "BOOLEAN",
+            "TRUE"
+        ],
+        "TSPX_delete_ltk": [
+            "BOOLEAN",
+            "FALSE"
+        ],
+        "TSPX_encryption_before_service_request": [
+            "BOOLEAN",
+            "FALSE"
+        ],
+        "TSPX_gen_disc_adv_min": [
+            "INTEGER",
+            "30720"
+        ],
+        "TSPX_gen_disc_scan_min": [
+            "INTEGER",
+            "10240"
+        ],
+        "TSPX_iut_connection_parameter_timeout": [
+            "INTEGER",
+            "30000"
+        ],
+        "TSPX_iut_device_IRK_for_resolvable_privacy_address_generation_procedure": [
+            "OCTETSTRING",
+            "00000000000000000000000000000000"
+        ],
+        "TSPX_iut_device_name_in_adv_packet_for_random_address": [
+            "IA5STRING",
+            ""
+        ],
+        "TSPX_iut_invalid_conn_update_supervision_timeout": [
+            "OCTETSTRING",
+            "0800"
+        ],
+        "TSPX_iut_invalid_connection_interval_max": [
+            "OCTETSTRING",
+            "0000"
+        ],
+        "TSPX_iut_invalid_connection_interval_min": [
+            "OCTETSTRING",
+            "0000"
+        ],
+        "TSPX_iut_invalid_connection_latency": [
+            "OCTETSTRING",
+            "0000"
+        ],
+        "TSPX_iut_mandates_mitm": [
+            "BOOLEAN",
+            "FALSE"
+        ],
+        "TSPX_iut_privacy_enabled": [
+            "BOOLEAN",
+            "FALSE"
+        ],
+        "TSPX_iut_private_address_interval": [
+            "INTEGER",
+            "5000"
+        ],
+        "TSPX_iut_rx_mtu": [
+            "INTEGER",
+            "23"
+        ],
+        "TSPX_iut_setup_att_over_br_edr": [
+            "BOOLEAN",
+            "FALSE"
+        ],
+        "TSPX_iut_valid_connection_interval_max": [
+            "OCTETSTRING",
+            "03C0"
+        ],
+        "TSPX_iut_valid_connection_interval_min": [
+            "OCTETSTRING",
+            "00C8"
+        ],
+        "TSPX_iut_valid_connection_latency": [
+            "OCTETSTRING",
+            "0006"
+        ],
+        "TSPX_iut_valid_timeout_multiplier": [
+            "OCTETSTRING",
+            "0962"
+        ],
+        "TSPX_lim_adv_timeout": [
+            "INTEGER",
+            "30720"
+        ],
+        "TSPX_lim_disc_scan_min": [
+            "INTEGER",
+            "10240"
+        ],
+        "TSPX_maximum_ce_length": [
+            "OCTETSTRING",
+            "0000"
+        ],
+        "TSPX_minimum_ce_length": [
+            "OCTETSTRING",
+            "0000"
+        ],
+        "TSPX_mtu_size": [
+            "INTEGER",
+            "23"
+        ],
+        "TSPX_observer_class_of_device": [
+            "OCTETSTRING",
+            "100104"
+        ],
+        "TSPX_pairing_before_service_request": [
+            "BOOLEAN",
+            "FALSE"
+        ],
+        "TSPX_peripheral_class_of_device": [
+            "OCTETSTRING",
+            "100104"
+        ],
+        "TSPX_pin_code": [
+            "IA5STRING",
+            "0000"
+        ],
+        "TSPX_psm": [
+            "OCTETSTRING",
+            "1001"
+        ],
+        "TSPX_secure_simple_pairing_pass_key_confirmation": [
+            "BOOLEAN",
+            "FALSE"
+        ],
+        "TSPX_security_enabled": [
+            "BOOLEAN",
+            "FALSE"
+        ],
+        "TSPX_supervision_timeout": [
+            "OCTETSTRING",
+            "07D0"
+        ],
+        "TSPX_tester_appearance": [
+            "OCTETSTRING",
+            "0000"
+        ],
+        "TSPX_tester_device_IRK_for_resolvable_privacy_address_generation_procedure": [
+            "OCTETSTRING",
+            "0123456789ABCDEF0123456789ABCDEF"
+        ],
+        "TSPX_time_guard": [
+            "INTEGER",
+            "300000"
+        ],
+        "TSPX_use_dynamic_pin": [
+            "BOOLEAN",
+            "FALSE"
+        ],
+        "TSPX_use_implicit_send": [
+            "BOOLEAN",
+            "TRUE"
+        ],
+        "TSPX_using_public_device_address": [
+            "BOOLEAN",
+            "TRUE"
+        ],
+        "TSPX_using_random_device_address": [
+            "BOOLEAN",
+            "FALSE"
+        ]
+    },
+
+    "GATT": {
+        "TSPX_bd_addr_iut": [
+            "OCTETSTRING",
+            "001122334455"
+        ],
+        "TSPX_delete_link_key": [
+            "BOOLEAN",
+            "TRUE"
+        ],
+        "TSPX_delete_ltk": [
+            "BOOLEAN",
+            "FALSE"
+        ],
+        "TSPX_iut_device_name_in_adv_packet_for_random_address": [
+            "IA5STRING",
+            ""
+        ],
+        "TSPX_iut_is_client_periphral": [
+            "BOOLEAN",
+            "FALSE"
+        ],
+        "TSPX_iut_is_server_central": [
+            "BOOLEAN",
+            "FALSE"
+        ],
+        "TSPX_iut_setup_att_over_br_edr": [
+            "BOOLEAN",
+            "FALSE"
+        ],
+        "TSPX_iut_use_dynamic_bd_addr": [
+            "BOOLEAN",
+            "FALSE"
+        ],
+        "TSPX_mtu_size": [
+            "INTEGER",
+            "23"
+        ],
+        "TSPX_pin_code": [
+            "IA5STRING",
+            "0000"
+        ],
+        "TSPX_security_enabled": [
+            "BOOLEAN",
+            "FALSE"
+        ],
+        "TSPX_selected_handle": [
+            "OCTETSTRING",
+            "0012"
+        ],
+        "TSPX_tester_appearance": [
+            "OCTETSTRING",
+            "0000"
+        ],
+        "TSPX_tester_database_file": [
+            "IA5STRING",
+            "C:\\Program Files\\Bluetooth SIG\\Bluetooth PTS\\Data\\SIGDatabase\\GATT_Qualification_Test_Databases.xml"
+        ],
+        "TSPX_time_guard": [
+            "INTEGER",
+            "180000"
+        ],
+        "TSPX_use_dynamic_pin": [
+            "BOOLEAN",
+            "FALSE"
+        ],
+        "TSPX_use_implicit_send": [
+            "BOOLEAN",
+            "TRUE"
+        ]
+    },
+
+    "GAVDP": {
+        "TSPX_SNK_class_of_device": [
+            "OCTETSTRING",
+            "04041C"
+        ],
+        "TSPX_SRC_class_of_device": [
+            "OCTETSTRING",
+            "080418"
+        ],
+        "TSPX_auth_password": [
+            "IA5STRING",
+            "0000"
+        ],
+        "TSPX_auth_user_id": [
+            "IA5STRING",
+            "PTS"
+        ],
+        "TSPX_bd_addr_iut": [
+            "OCTETSTRING",
+            "001122334455"
+        ],
+        "TSPX_cover_art_uuid": [
+            "OCTETSTRING",
+            "3EEE"
+        ],
+        "TSPX_delete_link_key": [
+            "BOOLEAN",
+            "TRUE"
+        ],
+        "TSPX_l2cap_psm": [
+            "OCTETSTRING",
+            "1001"
+        ],
+        "TSPX_media_directory": [
+            "IA5STRING",
+            "C:\\Program Files\\Bluetooth SIG\\Bluetooth PTS\\bin\\audio"
+        ],
+        "TSPX_no_avrcp": [
+            "BOOLEAN",
+            "TRUE"
+        ],
+        "TSPX_no_confirmations": [
+            "BOOLEAN",
+            "FALSE"
+        ],
+        "TSPX_pin_code": [
+            "IA5STRING",
+            "0000"
+        ],
+        "TSPX_rfcomm_channel": [
+            "INTEGER",
+            "8"
+        ],
+        "TSPX_security_enabled": [
+            "BOOLEAN",
+            "FALSE"
+        ],
+        "TSPX_tester_av_role": [
+            "IA5STRING",
+            ""
+        ],
+        "TSPX_time_guard": [
+            "INTEGER",
+            "300000"
+        ],
+        "TSPX_use_implicit_send": [
+            "BOOLEAN",
+            "TRUE"
+        ]
+    },
+
+    "HFP": {
+        "TSPX_AG_match_tester_BRSF_codec_negotiation_bit": [
+            "BOOLEAN",
+            "FALSE"
+        ],
+        "TSPX_Automation": [
+            "BOOLEAN",
+            "FALSE"
+        ],
+        "TSPX_HFP_HF_Indicator_Value_1": [
+            "INTEGER",
+            "1"
+        ],
+        "TSPX_HFP_Illegal_HF_Indicator_Value_1": [
+            "INTEGER",
+            "99"
+        ],
+        "TSPX_HFP_Supported_HF_Indicator_1": [
+            "INTEGER",
+            "1"
+        ],
+        "TSPX_HFP_Unsupported_HF_Indicator_1": [
+            "INTEGER",
+            "99"
+        ],
+        "TSPX_ag_class_of_device": [
+            "OCTETSTRING",
+            "400204"
+        ],
+        "TSPX_bd_addr_iut": [
+            "OCTETSTRING",
+            "001122334455"
+        ],
+        "TSPX_delete_link_key": [
+            "BOOLEAN",
+            "TRUE"
+        ],
+        "TSPX_hf_class_of_device": [
+            "OCTETSTRING",
+            "200408"
+        ],
+        "TSPX_network_supports_correct_call_and_callstatus": [
+            "BOOLEAN",
+            "TRUE"
+        ],
+        "TSPX_no_fail_verdicts": [
+            "BOOLEAN",
+            "FALSE"
+        ],
+        "TSPX_packet_type_sco": [
+            "OCTETSTRING",
+            "00A0"
+        ],
+        "TSPX_phone_number": [
+            "IA5STRING",
+            "1234567"
+        ],
+        "TSPX_phone_number_memory": [
+            "IA5STRING",
+            "1"
+        ],
+        "TSPX_phone_number_memory_invalid_index": [
+            "IA5STRING",
+            "9999"
+        ],
+        "TSPX_phone_number_type": [
+            "IA5STRING",
+            "129"
+        ],
+        "TSPX_pin_code": [
+            "IA5STRING",
+            "0000"
+        ],
+        "TSPX_scan_all_memory_dial_locations": [
+            "BOOLEAN",
+            "FALSE"
+        ],
+        "TSPX_second_phone_number": [
+            "IA5STRING",
+            "7654321"
+        ],
+        "TSPX_second_phone_number_type": [
+            "IA5STRING",
+            "129"
+        ],
+        "TSPX_secure_simple_pairing_pass_key_confirmation": [
+            "BOOLEAN",
+            "FALSE"
+        ],
+        "TSPX_security_enabled": [
+            "BOOLEAN",
+            "FALSE"
+        ],
+        "TSPX_server_channel_iut": [
+            "OCTETSTRING",
+            "00"
+        ],
+        "TSPX_server_channel_tester": [
+            "OCTETSTRING",
+            "01"
+        ],
+        "TSPX_time_guard": [
+            "INTEGER",
+            "300000"
+        ],
+        "TSPX_use_implicit_send": [
+            "BOOLEAN",
+            "TRUE"
+        ],
+        "TSPX_verbose_implicit_send": [
+            "BOOLEAN",
+            "FALSE"
+        ],
+        "TSPX_verify_CLIP_information": [
+            "BOOLEAN",
+            "TRUE"
+        ]
+    },
+
+    "HSP": {
+        "TSPX_ag_class_of_device": [
+            "OCTETSTRING",
+            "400204"
+        ],
+        "TSPX_bd_addr_iut": [
+            "OCTETSTRING",
+            "001122334455"
+        ],
+        "TSPX_delete_link_key": [
+            "BOOLEAN",
+            "TRUE"
+        ],
+        "TSPX_hs_class_of_device": [
+            "OCTETSTRING",
+            "200404"
+        ],
+        "TSPX_inband_ring_only": [
+            "BOOLEAN",
+            "FALSE"
+        ],
+        "TSPX_iut_establish_audio_before_RING": [
+            "BOOLEAN",
+            "FALSE"
+        ],
+        "TSPX_no_fail_verdicts": [
+            "BOOLEAN",
+            "FALSE"
+        ],
+        "TSPX_no_ring_or_inband_ring_tone": [
+            "BOOLEAN",
+            "FALSE"
+        ],
+        "TSPX_packet_type_sco": [
+            "OCTETSTRING",
+            "00A0"
+        ],
+        "TSPX_pin_code": [
+            "IA5STRING",
+            "0000"
+        ],
+        "TSPX_remote_audio_volume_control": [
+            "BOOLEAN",
+            "TRUE"
+        ],
+        "TSPX_secure_simple_pairing_pass_key_confirmation": [
+            "BOOLEAN",
+            "FALSE"
+        ],
+        "TSPX_security_enabled": [
+            "BOOLEAN",
+            "FALSE"
+        ],
+        "TSPX_server_channel_iut": [
+            "OCTETSTRING",
+            "00"
+        ],
+        "TSPX_server_channel_tester": [
+            "OCTETSTRING",
+            "01"
+        ],
+        "TSPX_time_guard": [
+            "INTEGER",
+            "20000000"
+        ],
+        "TSPX_use_implicit_send": [
+            "BOOLEAN",
+            "TRUE"
+        ],
+        "TSPX_verbose_implicit_send": [
+            "BOOLEAN",
+            "FALSE"
+        ]
+    },
+
+    "L2CAP": {
+        "TSPX_IUT_mps": [
+            "OCTETSTRING",
+            "0030"
+        ],
+        "TSPX_bd_addr_iut": [
+            "OCTETSTRING",
+            "001122334455"
+        ],
+        "TSPX_bd_addr_iut_le": [
+            "OCTETSTRING",
+            "001167939393"
+        ],
+        "TSPX_client_class_of_device": [
+            "OCTETSTRING",
+            "100104"
+        ],
+        "TSPX_delete_link_key": [
+            "BOOLEAN",
+            "TRUE"
+        ],
+        "TSPX_delete_ltk": [
+            "BOOLEAN",
+            "TRUE"
+        ],
+        "TSPX_extended_window_size": [
+            "OCTETSTRING",
+            "0012"
+        ],
+        "TSPX_flushto": [
+            "OCTETSTRING",
+            "FFFF"
+        ],
+        "TSPX_generate_local_busy": [
+            "BOOLEAN",
+            "TRUE"
+        ],
+        "TSPX_inmtu": [
+            "OCTETSTRING",
+            "02A0"
+        ],
+        "TSPX_iut_SDU_size_in_bytes": [
+            "INTEGER",
+            "144"
+        ],
+        "TSPX_iut_address_type_random": [
+            "BOOLEAN",
+            "FALSE"
+        ],
+        "TSPX_iut_role_initiator": [
+            "BOOLEAN",
+            "FALSE"
+        ],
+        "TSPX_iut_supported_max_channels": [
+            "INTEGER",
+            "5"
+        ],
+        "TSPX_no_fail_verdicts": [
+            "BOOLEAN",
+            "FALSE"
+        ],
+        "TSPX_outmtu": [
+            "OCTETSTRING",
+            "02A0"
+        ],
+        "TSPX_pin_code": [
+            "IA5STRING",
+            "0000"
+        ],
+        "TSPX_psm": [
+            "OCTETSTRING",
+            "1001"
+        ],
+        "TSPX_psm_authentication_required": [
+            "OCTETSTRING",
+            "00F2"
+        ],
+        "TSPX_psm_authorization_required": [
+            "OCTETSTRING",
+            "00F3"
+        ],
+        "TSPX_psm_encryption_key_size_required": [
+            "OCTETSTRING",
+            "00F4"
+        ],
+        "TSPX_psm_unsupported": [
+            "OCTETSTRING",
+            "00F1"
+        ],
+        "TSPX_rfc_mode_max_transmit": [
+            "OCTETSTRING",
+            "03"
+        ],
+        "TSPX_rfc_mode_maximum_pdu_size": [
+            "OCTETSTRING",
+            "02A0"
+        ],
+        "TSPX_rfc_mode_monitor_timeout": [
+            "OCTETSTRING",
+            "2EE0"
+        ],
+        "TSPX_rfc_mode_retransmission_timeout": [
+            "OCTETSTRING",
+            "07D0"
+        ],
+        "TSPX_rfc_mode_tx_window_size": [
+            "OCTETSTRING",
+            "08"
+        ],
+        "TSPX_secure_simple_pairing_pass_key_confirmation": [
+            "BOOLEAN",
+            "FALSE"
+        ],
+        "TSPX_security_enabled": [
+            "BOOLEAN",
+            "FALSE"
+        ],
+        "TSPX_server_class_of_device": [
+            "OCTETSTRING",
+            "100104"
+        ],
+        "TSPX_le_psm": [
+            "OCTETSTRING",
+            "0025"
+        ],
+        "TSPX_tester_adv_interval_max": [
+            "OCTETSTRING",
+            "0050"
+        ],
+        "TSPX_tester_adv_interval_min": [
+            "OCTETSTRING",
+            "0030"
+        ],
+        "TSPX_tester_conn_interval_max": [
+            "OCTETSTRING",
+            "0050"
+        ],
+        "TSPX_tester_conn_interval_min": [
+            "OCTETSTRING",
+            "0028"
+        ],
+        "TSPX_tester_conn_latency": [
+            "OCTETSTRING",
+            "0000"
+        ],
+        "TSPX_tester_le_scan_interval": [
+            "OCTETSTRING",
+            "0C80"
+        ],
+        "TSPX_tester_le_scan_window": [
+            "OCTETSTRING",
+            "0C80"
+        ],
+        "TSPX_tester_max_CE_length": [
+            "OCTETSTRING",
+            "0C80"
+        ],
+        "TSPX_tester_min_CE_length": [
+            "OCTETSTRING",
+            "0050"
+        ],
+        "TSPX_tester_mps": [
+            "OCTETSTRING",
+            "0017"
+        ],
+        "TSPX_tester_mtu": [
+            "OCTETSTRING",
+            "02A0"
+        ],
+        "TSPX_tester_supervision_timeout": [
+            "OCTETSTRING",
+            "00C8"
+        ],
+        "TSPX_time_guard": [
+            "INTEGER",
+            "180000"
+        ],
+        "TSPX_timer_ertx": [
+            "INTEGER",
+            "120000"
+        ],
+        "TSPX_timer_ertx_max": [
+            "INTEGER",
+            "300000"
+        ],
+        "TSPX_timer_ertx_min": [
+            "INTEGER",
+            "60000"
+        ],
+        "TSPX_timer_rtx": [
+            "INTEGER",
+            "10000"
+        ],
+        "TSPX_timer_rtx_max": [
+            "INTEGER",
+            "60000"
+        ],
+        "TSPX_timer_rtx_min": [
+            "INTEGER",
+            "1000"
+        ],
+        "TSPX_use_dynamic_pin": [
+            "BOOLEAN",
+            "FALSE"
+        ],
+        "TSPX_use_implicit_send": [
+            "BOOLEAN",
+            "TRUE"
+        ]
+    },
+
+    "PBAP": {
+        "TSPX_Automation": [
+            "BOOLEAN",
+            "FALSE"
+        ],
+        "TSPX_PBAP_rfcomm_channel": [
+            "INTEGER",
+            "1"
+        ],
+        "TSPX_PSE_vCardSelector": [
+            "OCTETSTRING",
+            "0000000000000001"
+        ],
+        "TSPX_PullVCardEntry_invalid_value": [
+            "IA5STRING",
+            "F1984D696B612048C3A46B6B696E656E"
+        ],
+        "TSPX_SPP_rfcomm_channel": [
+            "OCTETSTRING",
+            "03"
+        ],
+        "TSPX_auth_password": [
+            "IA5STRING",
+            "0000"
+        ],
+        "TSPX_auth_user_id": [
+            "IA5STRING",
+            "PTS"
+        ],
+        "TSPX_bd_addr_iut": [
+            "OCTETSTRING",
+            "001122334455"
+        ],
+        "TSPX_client_class_of_device": [
+            "OCTETSTRING",
+            "100204"
+        ],
+        "TSPX_delete_link_key": [
+            "BOOLEAN",
+            "TRUE"
+        ],
+        "TSPX_l2cap_psm": [
+            "OCTETSTRING",
+            "1001"
+        ],
+        "TSPX_no_confirmations": [
+            "BOOLEAN",
+            "FALSE"
+        ],
+        "TSPX_pin_code": [
+            "IA5STRING",
+            "0000"
+        ],
+        "TSPX_rfcomm_channel": [
+            "INTEGER",
+            "2"
+        ],
+        "TSPX_search_criteria": [
+            "IA5STRING",
+            "PTS"
+        ],
+        "TSPX_secure_simple_pairing_pass_key_confirmation": [
+            "BOOLEAN",
+            "FALSE"
+        ],
+        "TSPX_security_enabled": [
+            "BOOLEAN",
+            "TRUE"
+        ],
+        "TSPX_server_class_of_device": [
+            "OCTETSTRING",
+            "100204"
+        ],
+        "TSPX_telecom_folder_path": [
+            "IA5STRING",
+            "telecom"
+        ],
+        "TSPX_time_guard": [
+            "INTEGER",
+            "6000000"
+        ],
+        "TSPX_use_implicit_send": [
+            "BOOLEAN",
+            "TRUE"
+        ]
+    },
+
+    "RFCOMM": {
+        "TSPX_RPN_parameters_iut": [
+            "OCTETSTRING",
+            "0302001113"
+        ],
+        "TSPX_T1_Acknowledgement_Timer": [
+            "INTEGER",
+            "20000"
+        ],
+        "TSPX_T1_Acknowledgement_Timer_Dlc": [
+            "INTEGER",
+            "300000"
+        ],
+        "TSPX_T2_Response_Timer": [
+            "INTEGER",
+            "20000"
+        ],
+        "TSPX_bd_addr_iut": [
+            "OCTETSTRING",
+            "001122334455"
+        ],
+        "TSPX_class_of_device_tester": [
+            "OCTETSTRING",
+            "200408"
+        ],
+        "TSPX_delete_link_key": [
+            "BOOLEAN",
+            "FALSE"
+        ],
+        "TSPX_max_frame_size_iut": [
+            "INTEGER",
+            "127"
+        ],
+        "TSPX_pin_code": [
+            "IA5STRING",
+            "0000"
+        ],
+        "TSPX_security_enabled": [
+            "BOOLEAN",
+            "TRUE"
+        ],
+        "TSPX_server_channel_iut": [
+            "OCTETSTRING",
+            "04"
+        ],
+        "TSPX_service_name_tester": [
+            "IA5STRING",
+            "COM5"
+        ],
+        "TSPX_serviceclassid_uuid16": [
+            "OCTETSTRING",
+            ""
+        ],
+        "TSPX_time_guard": [
+            "INTEGER",
+            "300000"
+        ],
+        "TSPX_use_implicit_send": [
+            "BOOLEAN",
+            "TRUE"
+        ],
+        "TSPX_verification_pattern_length": [
+            "INTEGER",
+            "4"
+        ]
+    },
+
+    "SDP": {
+        "TSPX_bd_addr_iut": [
+            "OCTETSTRING",
+            "001122334455"
+        ],
+        "TSPX_class_of_device_pts": [
+            "OCTETSTRING",
+            "200404"
+        ],
+        "TSPX_class_of_device_test_pts_initiator": [
+            "BOOLEAN",
+            "TRUE"
+        ],
+        "TSPX_delete_link_key": [
+            "BOOLEAN",
+            "FALSE"
+        ],
+        "TSPX_device_search_time": [
+            "INTEGER",
+            "20"
+        ],
+        "TSPX_limited_inquiry_used": [
+            "BOOLEAN",
+            "FALSE"
+        ],
+        "TSPX_pin_code": [
+            "IA5STRING",
+            "0000"
+        ],
+        "TSPX_sdp_service_search_pattern": [
+            "IA5STRING",
+            "0100"
+        ],
+        "TSPX_sdp_service_search_pattern_additional_protocol_descriptor_list": [
+            "IA5STRING",
+            ""
+        ],
+        "TSPX_sdp_service_search_pattern_bluetooth_profile_descriptor_list": [
+            "IA5STRING",
+            ""
+        ],
+        "TSPX_sdp_service_search_pattern_browse_group_list": [
+            "IA5STRING",
+            ""
+        ],
+        "TSPX_sdp_service_search_pattern_client_exe_url": [
+            "IA5STRING",
+            ""
+        ],
+        "TSPX_sdp_service_search_pattern_documentation_url": [
+            "IA5STRING",
+            ""
+        ],
+        "TSPX_sdp_service_search_pattern_icon_url": [
+            "IA5STRING",
+            ""
+        ],
+        "TSPX_sdp_service_search_pattern_language_base_attribute_id_list": [
+            "IA5STRING",
+            ""
+        ],
+        "TSPX_sdp_service_search_pattern_no_results": [
+            "IA5STRING",
+            "EEEE"
+        ],
+        "TSPX_sdp_service_search_pattern_protocol_descriptor_list": [
+            "IA5STRING",
+            ""
+        ],
+        "TSPX_sdp_service_search_pattern_provider_name": [
+            "IA5STRING",
+            ""
+        ],
+        "TSPX_sdp_service_search_pattern_service_availability": [
+            "IA5STRING",
+            ""
+        ],
+        "TSPX_sdp_service_search_pattern_service_data_base_state": [
+            "IA5STRING",
+            "1000"
+        ],
+        "TSPX_sdp_service_search_pattern_service_description": [
+            "IA5STRING",
+            ""
+        ],
+        "TSPX_sdp_service_search_pattern_service_id": [
+            "IA5STRING",
+            ""
+        ],
+        "TSPX_sdp_service_search_pattern_service_info_time_to_live": [
+            "IA5STRING",
+            ""
+        ],
+        "TSPX_sdp_service_search_pattern_service_name": [
+            "IA5STRING",
+            ""
+        ],
+        "TSPX_sdp_service_search_pattern_service_record_state": [
+            "IA5STRING",
+            ""
+        ],
+        "TSPX_sdp_service_search_pattern_version_number_list": [
+            "IA5STRING",
+            "1000"
+        ],
+        "TSPX_sdp_unsupported_attribute_id": [
+            "OCTETSTRING",
+            "EEEE"
+        ],
+        "TSPX_secure_simple_pairing_pass_key_confirmation": [
+            "BOOLEAN",
+            "FALSE"
+        ],
+        "TSPX_security_enabled": [
+            "BOOLEAN",
+            "FALSE"
+        ],
+        "TSPX_time_guard": [
+            "INTEGER",
+            "200000"
+        ],
+        "TSPX_use_implicit_send": [
+            "BOOLEAN",
+            "TRUE"
+        ]
+    },
+
+    "SM": {
+        "TSPX_ATTR_HANDLE": [
+            "OCTETSTRING",
+            "0001"
+        ],
+        "TSPX_ATTR_VALUE": [
+            "OCTETSTRING",
+            "0002"
+        ],
+        "TSPX_Bonding_Flags": [
+            "OCTETSTRING",
+            "00"
+        ],
+        "TSPX_Min_Encryption_Key_Length": [
+            "INTEGER",
+            "07"
+        ],
+        "TSPX_OOB_Data": [
+            "OCTETSTRING",
+            "0000000000000000FE12036E5A889F4D"
+        ],
+        "TSPX_bd_addr_iut": [
+            "OCTETSTRING",
+            "001167939393"
+        ],
+        "TSPX_iut_device_name_in_adv_packet_for_random_address": [
+            "IA5STRING",
+            ""
+        ],
+        "TSPX_new_key_failed_count": [
+            "INTEGER",
+            "0"
+        ],
+        "TSPX_tester_role_optional": [
+            "IA5STRING",
+            "L2CAP_ROLE_ACCEPTOR"
+        ],
+        "TSPX_time_guard": [
+            "INTEGER",
+            "180000"
+        ],
+        "TSPX_use_implicit_send": [
+            "BOOLEAN",
+            "TRUE"
+        ]
+    },
+
+    "SPP": {
+        "TSPX_bd_addr_iut": [
+            "OCTETSTRING",
+            "001122334455"
+        ],
+        "TSPX_class_of_device_tester": [
+            "OCTETSTRING",
+            "200408"
+        ],
+        "TSPX_delete_link_key": [
+            "BOOLEAN",
+            "TRUE"
+        ],
+        "TSPX_pin_code": [
+            "IA5STRING",
+            "0000"
+        ],
+        "TSPX_security_enabled": [
+            "BOOLEAN",
+            "TRUE"
+        ],
+        "TSPX_stop_immediately_when_fail": [
+            "BOOLEAN",
+            "TRUE"
+        ],
+        "TSPX_time_guard": [
+            "INTEGER",
+            "300000"
+        ]
+    }
+}
